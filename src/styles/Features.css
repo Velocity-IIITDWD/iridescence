@@ -47,8 +47,28 @@
 @media only screen and (max-width:600px) {
     .ft-clubdesc {
         font-size: 2rem;  
+        top: 5%;
+        left: 55%;
+        width: 50%;
+
+    }
+    .ft-textslide{
+        height: 170vh;
     }
     .ft-photo{
-        width: 20rem;
+        top: 10%;
+        left: 15%;
+    }
+    .ft-video{
+        top:32%;
+        left: 15%;
+    }
+    .ft-edit{
+        left: 15%;
+        top: 54%;
+    }
+    .ft-content{
+        left: 15%;
+        top: 76%;
     }
 }
