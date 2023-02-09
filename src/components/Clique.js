@@ -15,7 +15,7 @@ function Clique() {
         </div>
         <div className='cq-second'>
           <CardWorkshop className="im" />
-          <p className='type2'>Begginers Workshop</p>
+          <p className='type2'>Beginers Workshop</p>
         </div>
       </div>
     </div>

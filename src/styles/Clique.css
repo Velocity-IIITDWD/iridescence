@@ -9,21 +9,20 @@
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .thirddiv{
     display: flex;
-    margin-top: 4%;
+    margin: 4% 0;
 }
 
 .cq-first{
-    margin-right: 10%;
+    margin-left: 5%;
 }
 
 .cq-second{
-    margin-left: 10%;
-
+    margin-left: 5%;
 }
 
 .im{
@@ -43,10 +42,20 @@
 }
 
 .type1{
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 2rem;
+    font-weight: 500;
 }
 .type2{
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 2rem;
+    font-weight:500;    
 }
+
+@media only screen and (max-width: 600px) {
+    .thirddiv{
+        flex-direction: column;
+        margin-bottom: 20%;
+    }
+    .cq-second{
+        margin-right: 5%;
+    }
+  }
