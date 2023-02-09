@@ -5,12 +5,12 @@ import {RiArrowDropDownLine} from 'react-icons/ri'
 import {FiMenu} from 'react-icons/fi'
 import {FaInstagram,FaGoogleDrive} from 'react-icons/fa'
 import {SiGmail} from 'react-icons/si'
-
+import { Link } from "react-router-dom";
 
 function Navbar() {
 
   const menuBtn = useRef(null)
-
+  
   const handleClick=()=>{
     const element=menuBtn.current
     if(element.className==='topnav'){
@@ -23,7 +23,7 @@ function Navbar() {
   return (
     <div className='topnav' id='myTopnav' ref={menuBtn}>
         <a href='/#' className='navhomelogo' ><img className='navmainlogo' src={mainlogo} alt="logo" /></a>
-        <a href='/#' id='event-nav' className='topnav-link'>Events</a>
+        <Link to='/' id='event-nav' className='topnav-link'>Events</Link>
         <div className='dropdown'>
            <button className='dropbtn nav-link'>Links
                 <RiArrowDropDownLine className='fa fa-caret-down' />
@@ -35,9 +35,9 @@ function Navbar() {
            </div>
         </div>
         <a href='/#' className='topnav-link'>Lensation</a>
-        <a href='/#' className='topnav-link'>Team</a>
+        <Link to='/team' className='topnav-link'>Team</Link>
         <a href='/#' className='topnav-link'>Work</a>
-        <a href='/#' className='dropdown-nav icon' onClick={handleClick} >
+        <a href='/#' className='dropdown-nav icon' onClick={handleClick} >   {/* here bug is there the href should change according the webpage we visit or else it will always go on '/#'*/}
             <FiMenu size={20}/>
         </a>
 
