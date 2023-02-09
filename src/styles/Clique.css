@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cq-cont{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    overflow: hidden;
+}
+
+.thirddiv{
+    display: flex;
+    margin-top: 4%;
+}
+
+.cq-first{
+    margin-right: 10%;
+}
+
+.cq-second{
+    margin-left: 10%;
+
+}
+
+.im{
+    width: 100px;
+    height: 100px;
+}
+
+.cq-heading{
+    margin: 5% 0 1% 0;
+    font-size: 4rem;
+}
+
+.cq-line{
+    width: 80%;
+    height: 2px;
+    background-color: black;
+}
+
+.type1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.type2{
+    font-size: 1.5rem;
+    font-weight: bold;
+}

@@ -1,0 +1,23 @@
+.desc-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+  }
+  
+  .desc-column {
+    width: 45%;
+    margin: 20px;
+    text-align: center;
+    transition: all 1s;
+    font-size: 1.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .desc-column {
+      width: 90%;
+    }
+  }
+  

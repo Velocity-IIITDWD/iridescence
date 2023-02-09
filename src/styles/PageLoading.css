@@ -1,0 +1,49 @@
+.black-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.welcome-message {
+  font-size: 64px;
+  color: white;
+  font-family: sans-serif;
+  opacity: 0;
+  text-align: center;
+  background: linear-gradient(to right, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: color-shift 2s linear infinite;
+}
+
+
+.welcome-logo {
+  position: absolute;
+  background-image: url("../Photo/main.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  height: 300px;
+  width: 300px;
+}
+
+
+
+@keyframes color-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}

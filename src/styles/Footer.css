@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 2em;
+    padding-bottom: 5em;
+}
+
+.footer-column {
+    width: 33.33%;
+    text-align: center;
+}
+
+.footer-column h3 {
+    font-size: 2.8rem;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 1em;
+    display: block;
+    font-size: 1.6rem;
+}
+
+.footer-link:hover {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, purple, orange);
+    text-decoration: underline;
+}

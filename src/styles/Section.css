@@ -1,0 +1,33 @@
+.section {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../Photo//black-monstera-leaves-background-wallpaper.jpg);
+    margin-top: 6%;
+  }
+  
+  .section-text {
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+  }
+
+  .lenslink{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+
+  .lenslink:hover{
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+  }
+  

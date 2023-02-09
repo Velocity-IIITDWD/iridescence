@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.te-container{
+    background-color: #171717 ;
+}
+
+.te-heading{
+    font-size: 4rem;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding:2% 0;
+}
