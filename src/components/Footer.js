@@ -12,6 +12,7 @@ const Footer = () => {
       </div>
       <div className="footer-column">
         <h3>Events</h3>
+        <a href="#/" className="footer-link">Foundation Day</a>
         <a href="#/" className="footer-link">Rush 2.0</a>
         <a href="#/" className="footer-link">GDSC X Velocity</a>
         <a href="#/" className="footer-link">Republic Day</a>

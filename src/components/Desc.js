@@ -29,7 +29,7 @@ const Desc = () => {
   return (
     <div className="desc-container">
       <TextColumn>
-        <h2>Aim</h2>
+        <h2 className="dc-aim">Aim</h2>
         <p>
           Our aim is to provide a videographical and photographical platform for various academic and non-academic activities of our Institute and students, and help to showcase it through social media. We hope to be a connecting cable for other clubs and find exposure and inspiration for our students.
         </p>

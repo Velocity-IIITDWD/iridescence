@@ -60,6 +60,14 @@
     background-image:linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
 }
 
+.home-headline:hover{
+    background-image: linear-gradient(120deg, 
+    #ff0000 0%, #ffa500 15%, #ffff00 30%, 
+    #00ff00 45%, #00ffff 60%, #0000ff 75%, 
+    #8b00ff 90%, #ff00ff 100%
+  );
+}
+
 @media only screen and (max-width:600px) {
     .home-headline{
         font-size: 2rem;
