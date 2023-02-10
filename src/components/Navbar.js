@@ -8,6 +8,16 @@ import {SiGmail} from 'react-icons/si'
 import { Link } from "react-router-dom";
 
 function Navbar() {
+  
+  const change=()=>{
+    if(window.location.pathname==='/'){
+      window.location.pathname="/#"
+    }
+    else if(window.location.pathname==='/team'){
+      window.location.pathname="/team"
+    }
+  }
+
 
   const menuBtn = useRef(null)
   
@@ -37,7 +47,7 @@ function Navbar() {
         <a href='/#' className='topnav-link'>Lensation</a>
         <Link to='/team' className='topnav-link'>Team</Link>
         <a href='/#' className='topnav-link'>Work</a>
-        <a href='/#' className='dropdown-nav icon' onClick={handleClick} >   {/* here bug is there the href should change according the webpage we visit or else it will always go on '/#'*/}
+        <a href={change} className='dropdown-nav icon' onClick={handleClick} >   
             <FiMenu size={20}/>
         </a>
 
