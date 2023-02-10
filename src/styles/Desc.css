@@ -21,6 +21,9 @@
     margin-top: 100px;
 
   }
+  .desc-column{
+    font-size: 1.2rem;
+  }
 }
 
 .desc-column:hover {
