@@ -1,28 +1,34 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import PageLoading from "./components/PageLoading";
-import Home from "./components/Home";
-import Desc from "./components/Desc";
-import Features from "./components/Features";
-import Section from "./components/Section";
-import Clique from "./components/Clique";
-import Topevents from "./components/Topevents";
-import Footer from "./components/Footer";
-import Copyright from "./components/Copyright"
+import CardContainer from './components/CardContainer';
+import LandingPage from "./components/LandingPage";
+
+
+
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+ 
+} from "react-router-dom";
 
 function App() {
   return (
     <>
-      <PageLoading/>
-      <Navbar/>  
-      <Home/>
-      <Desc/>
-      <Features/>
-      <Section />
-      <Clique/>
-      <Topevents/>
-      <Footer/>
-      <Copyright/>
+      
+      <Router>
+
+
+<Navbar/>
+  <Routes>
+    <Route path="/team"  element={<CardContainer/>}/>
+    <Route path="/"  element={<LandingPage/>}/>
+  </Routes>
+
+
+</Router> 
+
+
     </>
   );
 }
