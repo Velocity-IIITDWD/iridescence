@@ -19,7 +19,7 @@ function App() {
       
       <Router>
 
-
+ 
 <Navbar/>
   <Routes>
     <Route path="/team"  element={<CardContainer/>}/>

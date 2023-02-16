@@ -5,6 +5,10 @@ import "../styles/PageLoading.css"
 
 
 const PageLoading = () => {
+
+
+
+
   const [isLoaded, setIsLoaded] = useState(false);
   const textRef = useRef(null);
 
