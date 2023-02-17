@@ -15,6 +15,8 @@ function Navbar() {
     }
     else if(window.location.pathname==='/team'){
       window.location.pathname="/team"
+      
+
     }
   }
 
@@ -30,6 +32,10 @@ function Navbar() {
       element.className="topnav";
     }
   }
+
+
+
+
   return (
     <div className='topnav' id='myTopnav' ref={menuBtn}>
         <Link to='/' className='navhomelogo' ><img className='navmainlogo' src={mainlogo} alt="logo" /></Link>

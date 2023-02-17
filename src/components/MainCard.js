@@ -5,7 +5,12 @@ import "../styles/MembersCard.css";
 const MainCard = (props) => {
   const [showPopup, setShowPopup] = useState(false);
 
+  
+
   return (
+
+   
+
     <>
       <div
         className="box"
