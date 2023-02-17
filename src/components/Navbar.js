@@ -8,7 +8,13 @@ import {SiGmail} from 'react-icons/si'
 import { Link } from "react-router-dom";
 
 function Navbar() {
-  
+  const handleLinkClick = () => {
+    const element=menuBtn.current;
+    if(element.className==='topnav responsive'){
+      element.className="topnav";
+    }
+  };
+
   const change=()=>{
     if(window.location.pathname==='/'){
       window.location.pathname="/#"
@@ -19,7 +25,6 @@ function Navbar() {
 
     }
   }
-
 
   const menuBtn = useRef(null)
   
@@ -39,7 +44,7 @@ function Navbar() {
   return (
     <div className='topnav' id='myTopnav' ref={menuBtn}>
         <Link to='/' className='navhomelogo' ><img className='navmainlogo' src={mainlogo} alt="logo" /></Link>
-        <a href='/events' id='event-nav' className='topnav-link'>Events</a>
+        <a href='/events' id='event-nav' className='topnav-link'  onClick={handleLinkClick}>Events</a>
         <div className='dropdown'>
            <button className='dropbtn nav-link'>Links
                 <RiArrowDropDownLine className='fa fa-caret-down' />
@@ -51,8 +56,8 @@ function Navbar() {
            </div>
         </div>
         <a href='/lensation' className='topnav-link'>Lensation</a>
-        <Link to='/team' className='topnav-link'>Team</Link>
-        <a href='/work' className='topnav-link'>Work</a>
+        <Link to='/team' className='topnav-link' onClick={handleLinkClick}>Team</Link>
+        <a href='/work' className='topnav-link'  onClick={handleLinkClick}>Work</a>
         <a href={change} className='dropdown-nav icon' onClick={handleClick} >   
             <FiMenu size={20}/>
         </a>
