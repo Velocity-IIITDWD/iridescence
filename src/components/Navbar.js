@@ -21,6 +21,8 @@ function Navbar() {
     }
     else if(window.location.pathname==='/team'){
       window.location.pathname="/team"
+      
+
     }
   }
 
@@ -35,9 +37,13 @@ function Navbar() {
       element.className="topnav";
     }
   }
+
+
+
+
   return (
     <div className='topnav' id='myTopnav' ref={menuBtn}>
-        <Link to='/' className='navhomelogo' ><img className='navmainlogo' src={mainlogo} alt="logo" /></Link>
+        <Link to='/' className='navhomelogo'onClick={handleLinkClick} ><img className='navmainlogo' src={mainlogo} alt="logo" /></Link>
         <a href='/events' id='event-nav' className='topnav-link'  onClick={handleLinkClick}>Events</a>
         <div className='dropdown'>
            <button className='dropbtn nav-link'>Links
