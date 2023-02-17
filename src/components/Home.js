@@ -9,7 +9,7 @@ function Home() {
     const headlineRef = useRef(null);
 
     useEffect(()=>{
-        gsap.fromTo(heroRef.current, { height: "0%" }, {duration:1, height: "80%", ease: Power2.easeInOut,delay:3});
+        gsap.fromTo(heroRef.current, { height: "0%" }, {duration:1, height: "80%", ease: Power2.easeInOut,delay:2.6 });
         gsap.fromTo(heroRef.current, { width: "100%" }, {duration:1.2, width: "80%", ease: Power2.easeInOut,delay:4 });
         gsap.fromTo(sliderRef.current, { x: "-100%" }, {duration:1.2, x: "0%", ease: Power2.easeInOut,delay:4 });
         gsap.fromTo(headlineRef.current, { opacity: 0, x: 30 }, {duration:0.5, opacity: 1, x: 0,delay:4  });

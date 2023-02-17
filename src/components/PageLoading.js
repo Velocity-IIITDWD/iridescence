@@ -6,9 +6,6 @@ import "../styles/PageLoading.css"
 
 const PageLoading = () => {
 
-
-
-
   const [isLoaded, setIsLoaded] = useState(false);
   const textRef = useRef(null);
 
@@ -28,7 +25,7 @@ const PageLoading = () => {
     })
     .to(textRef.current, {
       duration: 2,
-      color: "#ff0000",
+      color: "#000000",
       repeat: -1,
       yoyo: true,
     },"-=0.4")
@@ -52,8 +49,6 @@ const PageLoading = () => {
       </div>
     );
   }
-
-
 };
 
 export default PageLoading;
