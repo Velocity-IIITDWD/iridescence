@@ -5,11 +5,27 @@ import "../styles/MembersCard.css";
 const MainCard = (props) => {
   const [showPopup, setShowPopup] = useState(false);
 
+  function fade() {
+    var fadeElems = document.querySelectorAll('.box');
+    for (var i = 0; i < fadeElems.length; i++) {
+      var elem = fadeElems[i];
+      var bounding = elem.getBoundingClientRect();
+      if (bounding.top < window.innerHeight && bounding.bottom > 0) {
+        elem.classList.add('is-visible');
+      } else {
+        elem.classList.remove('is-visible');
+      }
+    }
+  }
   
+  window.addEventListener('load', fade);
+  
+  window.addEventListener('scroll', fade);
+  window.addEventListener('click', fade);
+
+
 
   return (
-
-   
 
     <>
       <div
