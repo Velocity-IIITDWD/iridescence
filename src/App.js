@@ -15,6 +15,10 @@ import {
 } from "react-router-dom";
 
 function App() {
+
+
+
+
   return (
     <>
       
@@ -23,7 +27,7 @@ function App() {
  
 <Navbar/>
   <Routes>
-    <Route path="/team"  element={<CardContainer/>}/>
+    <Route path="/team" element={<CardContainer/>}/>
     <Route path="/"  element={<LandingPage/>}/>
     <Route path="/work" element={<Blog/>}/>
   </Routes>

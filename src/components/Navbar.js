@@ -1,4 +1,7 @@
-import { useRef } from 'react'
+import { useRef} from 'react'
+// import { useState} from 'react'
+
+
 import "../styles/Navbar.css"
 import mainlogo from "../Photo/logo.png"
 import {RiArrowDropDownLine} from 'react-icons/ri'
@@ -8,23 +11,27 @@ import {SiGmail} from 'react-icons/si'
 import { Link } from "react-router-dom";
 
 function Navbar() {
+
+
+
+
+
   const handleLinkClick = () => {
     const element=menuBtn.current;
     if(element.className==='topnav responsive'){
       element.className="topnav";
     }
+    
+
+    
   };
+
 
   const change=()=>{
     if(window.location.pathname==='/'){
       window.location.pathname="/#"
     }
-    else if(window.location.pathname==='/team'){
-      window.location.pathname="/team"
-      
-      
 
-    }
   }
 
   const menuBtn = useRef(null)
@@ -58,7 +65,7 @@ function Navbar() {
         </div>
         <a href='/lensation' className='topnav-link'>Lensation</a>
         <Link to='/team' className='topnav-link' onClick={handleLinkClick}>Team</Link>
-        <a href='/work' className='topnav-link'  onClick={handleLinkClick}>Work</a>
+        <Link to='/work' className='topnav-link'  onClick={handleLinkClick}>Work</Link>
         <a href={change} className='dropdown-nav icon' onClick={handleClick} >   
             <FiMenu size={20}/>
         </a>

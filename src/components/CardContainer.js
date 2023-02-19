@@ -18,6 +18,26 @@ import Jatin from "../images/Jatin.JPG"
 
 
 const CardContainer= () => {
+  function fade() {
+    var fadeElems = document.querySelectorAll('.container h1');
+    for (var i = 0; i < fadeElems.length; i++) {
+      var elem = fadeElems[i];
+      var bounding = elem.getBoundingClientRect();
+      if (bounding.top < window.innerHeight && bounding.bottom > 0) {
+        elem.classList.add('is-visible');
+      } else {
+        elem.classList.remove('is-visible');
+      }
+    }
+  }
+  
+
+  
+  window.addEventListener('load', fade);
+  
+  window.addEventListener('scroll', fade);
+  window.addEventListener('click', fade);
+ 
 
 
   return (
