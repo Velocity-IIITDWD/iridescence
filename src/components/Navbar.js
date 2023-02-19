@@ -22,6 +22,7 @@ function Navbar() {
     else if(window.location.pathname==='/team'){
       window.location.pathname="/team"
       
+      
 
     }
   }
