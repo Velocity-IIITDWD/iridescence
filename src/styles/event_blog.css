@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.container{
+    /* width:100%; */
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+    align-items: center;
+    padding:5rem 0;
+}
+.block{
+    position:relative;
+    height:70vh;
+    width:70vw;
+    border:0.5rem solid #171717;
+    border-radius:1rem;
+    box-shadow: none;
+}
+.img-container img{
+    position:absolute;
+    left:0;
+    height:100%;
+    object-fit: cover;
+    object-position: 0% 20%;
+    border-radius:0.5rem;
+    width:100%;
+    transition: filter 0.4s ease;
+}
+
+.caption{
+    position:absolute;
+    color:#171717;
+    margin-top:55vh;
+    margin-left:3vw;
+    font-size: 3rem;
+    font-weight:bolder;
+    background-color: rgba(255, 255, 255, 0.485);
+        padding: 0.2rem;
+        border-radius: 0.3rem;
+}
+.event_summary{
+    position: relative;
+    margin-top:22vh;
+    margin-left:9vw;
+    width:50vw;
+    color:white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    display:none;
+}
+.block:hover>.event_summary{
+    display:flex;
+    color:white;
+
+}
+
+.block:hover> .img-container img{
+    filter:blur(5px);
+}
+
+@media only screen and (max-width: 413px) 
+{
+    .container{
+        width:100%;
+        height:100%;
+        display:flex;
+        flex-direction: column;
+        gap:1.5rem;
+        align-items: center;
+        padding:5rem 0;
+        overflow-y: auto;
+        background-color: rgb(255, 255, 255);
+    }
+    .block{
+        position:relative;
+        height:25vh;
+        width:80vw;
+        border:0.2rem solid #171717;
+        border-radius:0.1rem;
+        box-shadow: none;
+    }
+    .img-container img{
+        position:absolute;
+        height:100%;
+        width:100%;
+        transition: filter 0.4s ease;
+    }
+    .caption{
+        position: relative;
+        font-size: 1rem;
+        position:absolute;
+        color:rgb(33, 22, 103);
+        margin-top:20vh;
+        margin-left:4vw;
+        font-weight:bolder;
+        background-color: rgba(255, 255, 255, 0.485);
+        padding: 0.2rem 0.3rem 0.2rem 0.3rem;
+        border-radius: 0.3rem;
+        /* text-decoration:underline; */
+        
+    }
+    .event_summary{
+        position: relative;
+        margin-top:9vh;
+        /* margin-left:5vw; */
+        width:50vw;
+        font-size: 0.8rem;
+        font-weight: bold;
+        color: white;
+        display:none;
+        justify-content: center;
+    }
+    .block:hover>.event_summary{
+        display:flex;
+        color: white;
+    }
+    .img-container img{
+        position:absolute;
+        height:100%;
+        width:100%;
+        transition: filter 0.4s ease;
+    }
+    .block:hover> .img-container img{
+        filter:blur(5px);
+    }
+
+}
+
