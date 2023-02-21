@@ -110,7 +110,7 @@
 
 .event_summary{
     position: relative;
-    margin-top:22vh;
+    margin-top:27vh;
     margin-left:9vw;
     width:50vw;
     color:white;
@@ -128,7 +128,7 @@
     filter:blur(5px);
 }
 
-@media only screen and (max-width: 413px) 
+@media only screen and (max-width: 415px) 
 {
     .container{
         width:100%;
@@ -202,7 +202,7 @@
     .event_summary{
         position: relative;
         margin-top:9vh;
-        /* margin-left:5vw; */
+        margin-left:14vw;
         width:50vw;
         font-size: 0.8rem;
         font-weight: bold;
