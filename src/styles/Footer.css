@@ -32,8 +32,21 @@
 .footer-link:hover {
     background-clip: text;
     -webkit-background-clip: text;
-    
     color: transparent;
     background-image: linear-gradient(to right, purple, orange);
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer{
+        height: 15vh;
+    }
+    .footer-column h3{
+        font-size: 1.2rem;
+    }
+    .footer-link{
+        font-size: 1rem;
+        margin-top: 0.5em;
+    }
+
 }

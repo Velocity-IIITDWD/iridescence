@@ -12,18 +12,12 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
 
-
-
-
-
   const handleLinkClick = () => {
     const element=menuBtn.current;
     if(element.className==='topnav responsive'){
       element.className="topnav";
     }
-    
-
-    
+      
   };
 
 
