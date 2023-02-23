@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../styles/Card.css';
 import cliq from "../Photo/DSC_5249.JPG"
 
+
 const CardPotowalk = () => {
   const [isHovered, setIsHovered] = useState(false);
 
