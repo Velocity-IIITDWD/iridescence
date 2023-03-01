@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/Card.css';
-import cliq from "../Photo/DSC_5249.JPG"
+
+import lcliq from "../Photo/lowDSC_5249 (1).jpeg"
 
 
 const CardPotowalk = () => {
@@ -12,7 +13,7 @@ const CardPotowalk = () => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <img src={cliq} alt='cliqevent' className="card-img" />
+      <img src={lcliq} alt='cliqevent' className="card-img" />
       {isHovered && (
         <div className="card-overlay">
           <p className="card-text">
