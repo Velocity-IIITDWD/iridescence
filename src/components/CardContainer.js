@@ -3,33 +3,34 @@ import Footer from "./Footer";
 import Copyright from "./Copyright";
 import React from "react";
 import MainCard from "./MainCard";
-import Ashith_Shetty from "../images/Ashith_Shetty.JPG";
-import Mandar from "../images/Mandar.JPG";
-import Pratik_Kende from "../images/Pratik_Kende.JPG";
-import Uday_teja from "../images/Uday_teja.JPG";
-import Bhanu from "../images/Bhanu.JPG";
-import Suchit from "../images/Suchit.JPG";
-import Somil from "../images/Somil.JPG";
-import Priyansh from "../images/Priyansh.JPG";
-import Anand from "../images/Anand.JPG";
-import Varang from "../images/Varang.JPG";
-import Jatin from "../images/Jatin.JPG";
-import Shreyansh from "../images/Shreyansh.JPG";
-import Chinmay_Shewale from "../images/Chinmay_Shewale.JPG";
-import vansh from "../images/Vansh.JPG";
-import Lohith from "../images/Lohith.JPG";
-import Aryan_jaiswal from "../images/Aryan_Jaiswal.JPG";
-import Vinay_Jain from "../images/Vinay_Jain.JPG";
-import Ashitosh from "../images/Ashitosh.JPG";
-import Harikiran from "../images/Harikiran.JPG";
-import Aryan_TN from "../images/Aryan_TN.JPG";
-import Sreehita from "../images/Sreehita.JPG";
-import Meghana from "../images/Meghana.JPG";
-import Ayushi from "../images/Ayushi_sinha.JPG";
-import Chaytali from "../images/Chaytali.JPG";
-import Ashritha from "../images/Ashritha.JPG";
-import Sameera from "../images/Sameera.JPG";
-import Nomatha from "../images/Nomatha.JPG";
+
+import low_Ashith_Shetty from "../images/Compressed/Ashith_Shetty-min.JPG";
+import low_Mandar from "../images/Compressed/Mandar-min.JPG";
+import low_Pratik_Kende from "../images/Compressed/Pratik_Kende-min.JPG";
+import low_Uday_teja from "../images/Compressed/Uday_teja-min.JPG";
+import low_Bhanu from "../images/Compressed/Bhanu-min.JPG";
+import low_Suchit from "../images/Compressed/Suchit-min.JPG";
+import low_Somil from "../images/Compressed/Somil-min.JPG";
+import low_Priyansh from "../images/Compressed/Priyansh-min.JPG";
+import low_Anand from "../images/Compressed/Anand-min.JPG";
+import low_Varang from "../images/Compressed/Varang-min.JPG";
+import low_Jatin from "../images/Compressed/Jatin-min.JPG";
+import low_Shreyansh from "../images/Compressed/Shreyansh-min.JPG";
+import low_Chinmay_Shewale from "../images/Compressed/Chinmay_Shewale-min.JPG";
+import low_vansh from "../images/Compressed/Vansh-min.JPG";
+import low_Lohith from "../images/Compressed/Lohith-min.JPG";
+import low_Aryan_jaiswal from "../images/Compressed/Aryan_Jaiswal-min.JPG";
+import low_Vinay_Jain from "../images/Compressed/Vinay_Jain-min.JPG";
+import low_Ashitosh from "../images/Compressed/Ashitosh-min.JPG";
+import low_Harikiran from "../images/Compressed/Harikiran-min.JPG";
+import low_Aryan_TN from "../images/Compressed/Aryan_TN-min.JPG";
+import low_Sreehita from "../images/Compressed/Sreehita-min.JPG";
+import low_Meghana from "../images/Compressed/Meghana-min.JPG";
+import low_Ayushi from "../images/Compressed/Ayushi_sinha-min.JPG";
+import low_Chaytali from "../images/Compressed/Chaytali-min.JPG";
+import low_Ashritha from "../images/Compressed/Ashritha-min.JPG";
+import low_Sameera from "../images/Compressed/Sameera-min.JPG";
+import low_Nomatha from "../images/Compressed/Nomatha-min.JPG";
 
 const CardContainer = () => {
   function fade() {
@@ -70,19 +71,19 @@ const CardContainer = () => {
               name="Chinmay Shewale"
               role="Editing Head"
               email="21bcs108@iiitdwd.ac.in"
-              image={Chinmay_Shewale}
+              image={low_Chinmay_Shewale}
             />
             <MainCard
               name="Mandar Dighe"
               role="Member"
               email="21bcs033@iiitdwd.ac.in"
-              image={Mandar}
+              image={low_Mandar}
             />
             <MainCard
               name="Ashitosh Sable"
               role="Member"
               email="21bcs096@iiitdwd.ac.in"
-              image={Ashitosh}
+              image={low_Ashitosh}
             />
           </div>
 
@@ -91,25 +92,25 @@ const CardContainer = () => {
               name="Lohith B"
               role="Member"
               email="22bcs061@iiitdwd.ac.in"
-              image={Lohith}
+              image={low_Lohith}
             />
             <MainCard
               name="Jatin Kushwaha"
               role="Member"
               email="22bds030@iiitdwd.ac.in"
-              image={Jatin}
+              image={low_Jatin}
             />
             <MainCard
               name="Harikiran"
               role="Member"
               email="22bcs060@iiitdwd.ac.in"
-              image={Harikiran}
+              image={low_Harikiran}
             />
             <MainCard
               name="Sreehitha"
               role="Member"
               email="22bcs050@iiitdwd.ac.in"
-              image={Sreehita}
+              image={low_Sreehita}
             />
           </div>
 
@@ -119,19 +120,19 @@ const CardContainer = () => {
               name="Ashith Shetty"
               role="Vice President"
               email="21bcs019@iiitdwd.ac.in"
-              image={Ashith_Shetty}
+              image={low_Ashith_Shetty}
             />
             <MainCard
               name="Aryan TN"
               role="Member"
               email="21bds006@iiitdwd.ac.in"
-              image={Aryan_TN}
+              image={low_Aryan_TN}
             />
             <MainCard
               name="Anand Singh"
               role="Member"
               email="21bcs009@iiitdwd.ac.in"
-              image={Anand}
+              image={low_Anand}
             />
             <MainCard
               name="Ashish Lal"
@@ -145,19 +146,19 @@ const CardContainer = () => {
               name="Uday Teja"
               role="Member"
               email="21bcs121@iiitdwd.ac.in"
-              image={Uday_teja}
+              image={low_Uday_teja}
             />
             <MainCard
               name="Kasi Bhanu Sameer"
               role="Member"
               email="21bec022@iiitdwd.ac.in"
-              image={Bhanu}
+              image={low_Bhanu}
             />
             <MainCard
               name="Suchit Artal"
               role="Member"
               email="22bcs126@iiitdwd.ac.in"
-              image={Suchit}
+              image={low_Suchit}
             />
             <MainCard
               name="Yashraj Kadam"
@@ -171,25 +172,25 @@ const CardContainer = () => {
               name="Priyansh"
               role="Member"
               email="22bcs092@iiitdwd.ac.in"
-              image={Priyansh}
+              image={low_Priyansh}
             />
             <MainCard
               name="Varang Pratap Singh"
               role="Member"
               email="22bds062@iiitdwd.ac.in"
-              image={Varang}
+              image={low_Varang}
             />
             <MainCard
               name="Vansh Tolani"
               role="Member"
               email="22bds061@iiitdwd.ac.in"
-              image={vansh}
+              image={low_vansh}
             />
             <MainCard
               name="Somil Jain"
               role="Member"
               email="22bec045@iiitdwd.ac.in"
-              image={Somil}
+              image={low_Somil}
             />
           </div>
 
@@ -199,26 +200,26 @@ const CardContainer = () => {
               name="Chaytali Jawalekar"
               role="Content Head"
               email="21bcs026@iiitdwd.ac.in"
-              image={Chaytali}
+              image={low_Chaytali}
             />
             <MainCard
               name="Aayushi Sinha"
               role="Member"
               email="21bcs120@iiitdwd.ac.in"
-              image={Ayushi}
+              image={low_Ayushi}
             />
             <MainCard
               name="Shreyansh Tiwari"
               role="Member"
               email="21bcs114@iiitdwd.ac.in"
-              image={Shreyansh}
+              image={low_Shreyansh}
             />
 
             <MainCard
               name="Nomtha Prakash"
               role="Member"
               email="22bcs103@iiitdwd.ac.in"
-              image={Nomatha}
+              image={low_Nomatha}
             />
           </div>
 
@@ -227,7 +228,7 @@ const CardContainer = () => {
               name="Azmeera Ashritha"
               role="Member"
               email="22bcs019@iiitdwd.ac.in"
-              image={Ashritha}
+              image={low_Ashritha}
             />
           </div>
 
@@ -237,7 +238,7 @@ const CardContainer = () => {
               name="Pratik Kende"
               role="Event Head"
               email="21bcs053@iiitdwd.ac.in"
-              image={Pratik_Kende}
+              image={low_Pratik_Kende}
             />
             <MainCard
               name="Chintan Chawda"
@@ -249,13 +250,13 @@ const CardContainer = () => {
               name="K Meghana"
               role="Member"
               email="22bcs054@iiitdwd.ac.in"
-              image={Meghana}
+              image={low_Meghana}
             />
             <MainCard
               name="Vinay Jain"
               role="Member"
               email="22bcs137@iiitdwd.ac.in"
-              image={Vinay_Jain}
+              image={low_Vinay_Jain}
             />
           </div>
 
@@ -264,13 +265,13 @@ const CardContainer = () => {
               name="T Sameera"
               role="Member"
               email="22bec047@iiitdwd.ac.in"
-              image={Sameera}
+              image={low_Sameera}
             />
             <MainCard
               name="Aryan Jaiswal"
               role="Member"
               email="22bcs018@iiitdwd.ac.in"
-              image={Aryan_jaiswal}
+              image={low_Aryan_jaiswal}
             />
           </div>
         </div>

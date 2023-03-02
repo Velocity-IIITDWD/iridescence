@@ -12,6 +12,9 @@ function SlideImage({ image, altimage, title }) {
                         src={image}
                         placeholderSrc={altimage}
                         effect="blur"
+                        threshold={10}
+                        visibleByDefault={true}
+                        delayTime={500}
                     />
 
                 </div>

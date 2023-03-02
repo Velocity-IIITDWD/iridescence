@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
 *,
 *::after,
 *::before {
@@ -30,15 +31,18 @@ body {
 .si-container .si-box:hover .imgBox {
   transform: translate(-3.5rem, -3.5rem);
 }
+
 .si-container .si-box:hover .si-content {
   transform: translate(3.5rem, 3.5rem);
 }
 
-.si-container #bxm:hover .imgBox,.si-container #bxo:hover .imgBox{
+.si-container #bxm:hover .imgBox,
+.si-container #bxo:hover .imgBox {
   transform: translate(3.5rem, -3.5rem);
 }
 
-.si-container #bxm:hover .si-content,.si-container #bxo:hover .si-content {
+.si-container #bxm:hover .si-content,
+.si-container #bxo:hover .si-content {
   transform: translate(-3.5rem, 3.5rem);
 }
 
@@ -96,9 +100,18 @@ body {
   .si-container .si-box:hover .si-content {
     transform: translate(0, 3.5rem);
   }
+
   .si-container .si-box:hover .imgBox {
     transform: translate(0, -3.5rem);
   }
+
+  #bxl {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .lazy-load-image-background img {
+    width: 25rem;
+    height: 25rem;
+  }
 }
-
-
