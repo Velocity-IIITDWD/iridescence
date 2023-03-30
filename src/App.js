@@ -4,6 +4,7 @@ import CardContainer from './components/CardContainer';
 import LandingPage from "./components/LandingPage";
 import Blog from "./components/event_blog";
 import PageLoading from "./components/PageLoading";
+import Lensation from "./components/Lensation/Lensation";
 
 import {
   BrowserRouter as Router,
@@ -34,6 +35,7 @@ function App() {
           <Route path="/team" element={<CardContainer />} />
           <Route path="/" element={<LandingPage />} />
           <Route path="/work" element={<Blog />} />
+          <Route path="/lensation" element={<Lensation/>}/>
         </Routes>
 
 
