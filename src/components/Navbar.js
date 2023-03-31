@@ -43,7 +43,7 @@ function Navbar() {
   return (
     <div className='topnav' id='myTopnav' ref={menuBtn}>
         <Link to='/' className='navhomelogo'onClick={handleLinkClick} ><img className='navmainlogo' src={mainlogo} alt="logo" /></Link>
-        <a href='/events' id='event-nav' className='topnav-link'  onClick={handleLinkClick}>Events</a>
+        <Link to='/events' id='event-nav' className='topnav-link'  onClick={handleLinkClick}>Events</Link>
         <div className='dropdown'>
            <button className='dropbtn nav-link'>Links
                 <RiArrowDropDownLine className='fa fa-caret-down' />
@@ -54,7 +54,7 @@ function Navbar() {
                 <a href='https://drive.google.com/drive/folders/1pMXDTqqgP8FTrLndLSunWkbmLm5d4qW7?usp=sharing' target={"_blank"} rel="noreferrer" ><FaGoogleDrive/></a>
            </div>
         </div>
-        <a href='/lensation' className='topnav-link' onClick={handleLinkClick}>Lensation</a>
+        <Link to='/lensation' className='topnav-link' onClick={handleLinkClick}>Lensation</Link>
         <Link to='/team' className='topnav-link' onClick={handleLinkClick}>Team</Link>
         <Link to='/work' className='topnav-link'  onClick={handleLinkClick}>Work</Link>
         <a href={change} className='dropdown-nav icon' onClick={handleClick} >   

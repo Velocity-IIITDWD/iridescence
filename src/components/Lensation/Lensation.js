@@ -48,28 +48,28 @@ const Lensation = () => {
 
   return (
     <>
-        <div className='logo'>
-            <img src={logo} />
-        </div>
+      <div className='logo'>
+            <img src={logo} alt="lensationlgo"/>
+      </div>
       <section ref={el => sectionsRef.current[0] = el}>
         <div className="bg"></div>
-        <h1 id="jj">Travel</h1>
+        <h1 className='lensation_heading'>Travel</h1>
       </section>
       <section ref={el => sectionsRef.current[1] = el}>
         <div className="bg"></div>
-        <h1>Monochrome</h1>
+        <h1 className='lensation_heading'>Monochrome</h1>
       </section>
       <section ref={el => sectionsRef.current[2] = el}>
         <div className="bg"></div>
-        <h1>Symmetry</h1>
+        <h1 className='lensation_heading'>Symmetry</h1>
       </section>
       <section ref={el => sectionsRef.current[3] = el}>
         <div className="bg"></div>
-        <h1>Silhouette</h1>
+        <h1 className='lensation_heading'>Silhouette</h1>
       </section>
       <section ref={el => sectionsRef.current[4] = el}>
         <div className="bg"></div>
-        <h1>Macro Photography</h1>
+        <h1 className='lensation_heading'>Macro Photography</h1>
       </section>
       <Footer/>
 
