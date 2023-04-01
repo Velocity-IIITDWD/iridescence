@@ -34,6 +34,8 @@ import low_Nomatha from "../images/Compressed/Nomatha-min.JPG";
 import low_Prabhu_sir  from "../images/Compressed/Prabhu Sir.jpg"
 import chintan from "../images/CHINTAN.jpg"
 import ashish_lal from "../images/ASHISH LAL.JPG"
+import low_yashraj from "../images/Compressed/yashraj.jpg"
+import Ratnesh from "../images/Ratnesh.JPG"
 
 const CardContainer = () => {
   function fade() {
@@ -69,6 +71,7 @@ const CardContainer = () => {
               name="Ratnesh Kherudkar"
               role="President"
               email="21bcs091@iiitdwd.ac.in"
+              image={Ratnesh}
             />
             <MainCard
               name="Chinmay Shewale"
@@ -168,6 +171,7 @@ const CardContainer = () => {
               name="Yashraj Kadam"
               role="Member"
               email="22bds066@iiitdwd.ac.in"
+              image={low_yashraj}
             />
           </div>
 
