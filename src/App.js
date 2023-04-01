@@ -37,8 +37,6 @@ function App() {
           <Route path="/work" element={<Blog />} />
           <Route path="/lensation" element={<Lensation/>}/>
         </Routes>
-
-
       </Router>
 
     </>
