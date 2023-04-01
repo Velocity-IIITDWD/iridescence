@@ -31,6 +31,9 @@ import low_Chaytali from "../images/Compressed/Chaytali-min.JPG";
 import low_Ashritha from "../images/Compressed/Ashritha-min.JPG";
 import low_Sameera from "../images/Compressed/Sameera-min.JPG";
 import low_Nomatha from "../images/Compressed/Nomatha-min.JPG";
+import low_Prabhu_sir  from "../images/Compressed/Prabhu Sir.jpg"
+import chintan from "../images/CHINTAN.jpg"
+import ashish_lal from "../images/ASHISH LAL.JPG"
 
 const CardContainer = () => {
   function fade() {
@@ -57,7 +60,7 @@ const CardContainer = () => {
         <div className="container">
           <h1>Faculty Advisor</h1>
           <div className="row">
-            <MainCard name="Prabhu Prasad" email="21bcs000@iiitdwd.ac.in" />
+            <MainCard name="Prabhu Prasad" email="prabhuprasad@iiitdwd.ac.in" image={low_Prabhu_sir} />
           </div>
           <h1>Video Editing</h1>
 
@@ -138,6 +141,7 @@ const CardContainer = () => {
               name="Ashish Lal"
               role="Member"
               email="21bcs017@iiitdwd.ac.in"
+              image={ashish_lal}
             />
           </div>
 
@@ -244,6 +248,7 @@ const CardContainer = () => {
               name="Chintan Chawda"
               role="Member"
               email="21bds013@iiitdwd.ac.in"
+              image={chintan}
             />
 
             <MainCard

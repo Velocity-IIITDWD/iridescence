@@ -53,22 +53,22 @@
 
     }
     .ft-textslide{
-        height: 170vh;
+        height: 220vh;
     }
     .ft-photo{
         top: 10%;
-        left: 15%;
+        left: 12%;
     }
     .ft-video{
         top:32%;
-        left: 15%;
+        left: 12%;
     }
     .ft-edit{
-        left: 15%;
+        left: 12%;
         top: 54%;
     }
     .ft-content{
-        left: 15%;
+        left: 12%;
         top: 76%;
     }
 }

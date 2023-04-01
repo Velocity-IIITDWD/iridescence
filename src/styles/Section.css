@@ -17,14 +17,14 @@
     font-size: 4rem;
   }
 
-  .lenslink{
+  #lenslink{
     text-decoration: none;
     color: white;
     font-weight: bold;
     font-family: sans-serif;
   }
 
-  .lenslink:hover{
+  #lenslink:hover{
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
