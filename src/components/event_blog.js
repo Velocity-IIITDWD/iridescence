@@ -3,6 +3,7 @@ import { event_blog_data } from './event_blog_data'
 import '../styles/event_blog.css'
 import Footer from './Footer';
 
+
 function cards() {
 
   function fade() {

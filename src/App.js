@@ -5,6 +5,7 @@ import LandingPage from "./components/LandingPage";
 import Blog from "./components/event_blog";
 import PageLoading from "./components/PageLoading";
 import Lensation from "./components/Lensation/Lensation";
+import EventsPage from "./components/EventsPage";
 
 import {
   BrowserRouter as Router,
@@ -36,6 +37,7 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/work" element={<Blog />} />
           <Route path="/lensation" element={<Lensation/>}/>
+          <Route path="/events" element={<EventsPage/>}/>
         </Routes>
       </Router>
 

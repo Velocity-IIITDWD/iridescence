@@ -46,7 +46,7 @@ function Navbar() {
         <Link to='/events' id='event-nav' className='topnav-link'  onClick={handleLinkClick}>Events</Link>
         <div className='dropdown'>
            <button className='dropbtn nav-link'>Links
-                <RiArrowDropDownLine className='fa fa-caret-down' />
+                <RiArrowDropDownLine className='fa fa-caret-down'/>
            </button>
            <div className='dropdown-content'>
                 <a href='https://instagram.com/iridescence.iiitdwd?igshid=OGQ2MjdiOTE=' target={"_blank"} rel="noreferrer" ><FaInstagram/></a>
