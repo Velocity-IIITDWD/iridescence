@@ -1,3 +1,27 @@
+# Iridescence Club Website
+
+Welcome to the Iridescence Club's website! This website showcases the work of our photography and videography editing club, providing a platform for our members to display their talent, share their experiences, and connect with others who share a passion for editing.
+
+![WhatsApp Image 2023-06-24 at 13 03 46](https://github.com/Team-Iridescence/website/assets/111903817/e310fadb-54df-4ca5-b565-4dfd79974fb3)
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Technologies Used](#technologies-used)
+
+## Introduction
+- The Iridescence Club website is designed to promote and highlight the work of our talented members. It serves as a hub for showcasing stunning photographs and videos, sharing information about our club, and providing updates on upcoming events and collaborations.
+
+- ## Features
+- **Home Page**: Browse through a captivating collection of photographs and key features of our club.
+- **Events**: "Explore the captivating moments we've captured during events.
+- **Lensation**: Platform for every student to showcase their unique skills.
+- **Team**: Learn more about the creative individuals who make up our community.
+- **Work**: Our unforgettable memories and experiences working at extraordinary events .
+
+- ## Installation
+Follow these steps to set up the website locally on your machine:
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +92,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Technologies Used
+- React: A JavaScript library for building user interfaces.
+- GSAP (GreenSock Animation Platform): A powerful JavaScript animation library for creating smooth and engaging animations.
+
+- ![logo](https://github.com/Team-Iridescence/website/assets/111903817/b041af92-5754-48ab-8a3f-4bb3e7415d01)
