@@ -12,7 +12,7 @@ import img7 from "../Topphoto/IMG_8159-min.JPG"
 export default function CarouselComponent() {
     return (
         <div className="carousel-wrapper" >
-            <Carousel infiniteLoop useKeyboardArrows autoPlay stopOnHover emulateTouch centerMode swipeable centerSlidePercentage='50'>
+            <Carousel infiniteLoop useKeyboardArrows autoPlay stopOnHover emulateTouch centerMode swipeable centerSlidePercentage='40'>
                 <div>
                     <img src={img1} alt="img1" className="cc-img"/>
                 </div>

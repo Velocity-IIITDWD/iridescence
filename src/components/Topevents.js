@@ -6,7 +6,7 @@ function Topevents() {
   return (
     <>
         <div className='te-container'>
-            <h2 className='te-heading'>Top Events</h2>
+            <h2 className='te-heading'>Top Clicks</h2>
             <CarouselComponent/>
         </div>
     </>
