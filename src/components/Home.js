@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import lowImageHigh from "../Photo/LDSC_0063.JPG.jpeg"
+import herogif from "../Photo/College_website_AdobeExpress.gif"
 import { gsap, Power2 } from 'gsap';
 import "../styles/Home.css";
 
@@ -19,7 +19,7 @@ function Home() {
         <>
             <div className='home-empty'>
                 <div ref={heroRef} className="hero">
-                    <img src={lowImageHigh} alt="heroimg"></img>
+                    <img src={herogif} alt="heroimg"></img>
 
                     <h1 ref={headlineRef} className="home-headline">Iridescence</h1>
                 </div>
