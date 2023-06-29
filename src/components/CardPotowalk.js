@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/Card.css';
-import lcliq from "../Photo/lowDSC_5249 (1).jpeg"
+import lcliq from "../Photo/lowDSC_5249 (1).jpeg";
+import { Link } from 'react-router-dom';
 
 const CardPotowalk = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -16,7 +17,7 @@ const CardPotowalk = () => {
         <p className={`card-text ${isHovered ? 'raised' : ''}`}>
         Club activity where participants go out to a designated location and take photographs. The goal of a photowalk is to explore new areas, practice photography skills, and meet new people who share a passion for photography.
         </p>
-        {isHovered && <button className="know-more-button">Know More</button>}
+        {isHovered && <Link to="/photowalk"><button className="know-more-button">Know More</button></Link>}
       </div>
       
     </div>

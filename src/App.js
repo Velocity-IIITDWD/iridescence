@@ -6,6 +6,8 @@ import Blog from "./components/event_blog";
 import PageLoading from "./components/PageLoading";
 import Lensation from "./components/Lensation/Lensation";
 import EventsPage from "./components/EventsPage";
+import PhotowalkPage from "./components/PhotowalkPage";
+import WorkshopPage from "./components/WorkshopPage";
 
 import {
   BrowserRouter as Router,
@@ -38,6 +40,8 @@ function App() {
           <Route path="/work" element={<Blog />} />
           <Route path="/lensation" element={<Lensation/>}/>
           <Route path="/events" element={<EventsPage/>}/>
+          <Route path="/photowalk" element={<PhotowalkPage/>}/>
+          <Route path="/workshop" element={<WorkshopPage/>}/>
         </Routes>
       </Router>
 

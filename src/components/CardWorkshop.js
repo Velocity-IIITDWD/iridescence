@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/Card.css';
 import lcliq from "../Photo/lowDSC_5256.jpeg";
+import { Link } from 'react-router-dom';
 
 const CardPotowalk = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -16,7 +17,7 @@ const CardPotowalk = () => {
         <p className={`card-text ${isHovered ? 'raised' : ''}`}>
           In club comprehensive photography workshop aimed at improving skills in using a DSLR camera. This workshop covered the basics of photography and provide hands-on training on how to effectively use a DSLR camera.
         </p>
-        {isHovered && <button className="know-more-button">Know More</button>}
+        {isHovered && <Link to="/workshop"><button className="know-more-button">Know More</button></Link>}
       </div>
     </div>
   );
