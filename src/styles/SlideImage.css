@@ -36,15 +36,6 @@ body {
   transform: translate(3.5rem, 3.5rem);
 }
 
-.si-container #bxm:hover .imgBox,
-.si-container #bxo:hover .imgBox {
-  transform: translate(3.5rem, -3.5rem);
-}
-
-.si-container #bxm:hover .si-content,
-.si-container #bxo:hover .si-content {
-  transform: translate(-3.5rem, 3.5rem);
-}
 
 
 .imgBox {
@@ -98,11 +89,11 @@ body {
 
 @media (max-width: 600px) {
   .si-container .si-box:hover .si-content {
-    transform: translate(0, 3.5rem);
+    transform: translate(6rem, 6rem);
   }
 
   .si-container .si-box:hover .imgBox {
-    transform: translate(0, -3.5rem);
+    transform: translate(-3.5rem  , -3.5rem);
   }
 
   #bxl {
