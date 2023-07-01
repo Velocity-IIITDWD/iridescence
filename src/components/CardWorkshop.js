@@ -12,7 +12,7 @@ const CardPotowalk = () => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <img src={lcliq} alt='cliqevent' className="card-img" />
+      <img src={lcliq} alt='cliqevent' className="card-img" loading='lazy' />
       <div className="card-overlay">
         <p className={`card-text ${isHovered ? 'raised' : ''}`}>
           In club comprehensive photography workshop aimed at improving skills in using a DSLR camera. This workshop covered the basics of photography and provide hands-on training on how to effectively use a DSLR camera.

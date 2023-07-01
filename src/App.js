@@ -9,6 +9,7 @@ import EventsPage from "./components/EventsPage";
 import PhotowalkPage from "./components/PhotowalkPage";
 import WorkshopPage from "./components/WorkshopPage";
 
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -42,6 +43,7 @@ function App() {
           <Route path="/events" element={<EventsPage/>}/>
           <Route path="/photowalk" element={<PhotowalkPage/>}/>
           <Route path="/workshop" element={<WorkshopPage/>}/>
+
         </Routes>
       </Router>
 

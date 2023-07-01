@@ -5,7 +5,7 @@ function GalleryPhoto({img,photrapher}) {
     return (
         <div className='grid-container'>
             <div>
-                <img class='grid-item grid-item-1' src={img} alt='' />
+                <img class='grid-item grid-item-1' src={img} alt='' loading='lazy'/>
                 <p>{photrapher}</p>
             </div>
         </div>

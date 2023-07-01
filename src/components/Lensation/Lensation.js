@@ -49,7 +49,7 @@ const Lensation = () => {
   return (
     <>
       <div className='logo'>
-            <img src={logo} alt="lensationlgo"/>
+            <img src={logo} alt="lensationlgo" loading='lazy'/>
       </div>
       <section ref={el => sectionsRef.current[0] = el}>
         <div className="bg"></div>

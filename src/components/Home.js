@@ -19,7 +19,7 @@ function Home() {
         <>
             <div className='home-empty'>
                 <div ref={heroRef} className="hero">
-                    <img src={herogif} alt="heroimg"></img>
+                    <img src={herogif} alt="heroimg" loading='lazy'></img>
 
                     <h1 ref={headlineRef} className="home-headline">Iridescence</h1>
                 </div>

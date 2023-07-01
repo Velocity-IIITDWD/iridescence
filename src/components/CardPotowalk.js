@@ -12,7 +12,7 @@ const CardPotowalk = () => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <img src={lcliq} alt='cliqevent' className="card-img" />
+      <img src={lcliq} alt='cliqevent' className="card-img" loading='lazy'/>
       <div className="card-overlay">
         <p className={`card-text ${isHovered ? 'raised' : ''}`}>
         Club activity where participants go out to a designated location and take photographs. The goal of a photowalk is to explore new areas, practice photography skills, and meet new people who share a passion for photography.
