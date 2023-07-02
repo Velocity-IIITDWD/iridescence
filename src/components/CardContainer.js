@@ -61,7 +61,7 @@ const CardContainer = () => {
         <div className="container">
           <h1>Faculty Advisor</h1>
           <div className="row">
-            <MainCard name="Prabhu Prasad" email="prabhuprasad@iiitdwd.ac.in" image={Prabhu_sir} />
+            <MainCard name="Prabhu Prasad" email="prabhuprasad@iiitdwd.ac.in" image={Prabhu_sir}  hash="LaJbBY$xoyIq~pi^W?WCK-W?RPxu"/>
           </div>
           <h1>Video Editing</h1>
 
@@ -71,24 +71,28 @@ const CardContainer = () => {
               role="President"
               email="21bcs091@iiitdwd.ac.in"
               image={Ratnesh}
+              hash="L2DIab5Z00}j00^c0A5?$i=w~AE4"
             />
             <MainCard
               name="Chinmay Shewale"
               role="Editing Head"
               email="21bcs108@iiitdwd.ac.in"
               image={Chinmay_Shewale}
+              hash="L;Jt-cV?%Lt7~pV?t7ofx^jFWCaz"
             />
             <MainCard
               name="Mandar Dighe"
               role="Member"
               email="21bcs033@iiitdwd.ac.in"
               image={Mandar}
+              hash="LrLN9{V?-:RP~WRjf,aetQaxjrof"
             />
             <MainCard
               name="Ashitosh Sable"
               role="Member"
               email="21bcs096@iiitdwd.ac.in"
               image={Ashitosh}
+              hash="LWI#V{~q.8xt%$ogRjIU%ixaxaoe"
             />
           </div>
 
@@ -98,24 +102,28 @@ const CardContainer = () => {
               role="Member"
               email="22bcs061@iiitdwd.ac.in"
               image={Lohith}
+              hash="L4D+C}y=02ADxI^QBiMwGa^*~AAB"
             />
             <MainCard
               name="Jatin Kushwaha"
               role="Member"
               email="22bds030@iiitdwd.ac.in"
               image={Jatin}
+              hash="LhKKZP-:yAsC~Ut6ocV@%Mt7%1j]"
             />
             <MainCard
               name="Harikiran"
               role="Member"
               email="22bcs060@iiitdwd.ac.in"
               image={Harikiran}
+              hash="L$NAO,bw?YV@_4t7WGjYo%WDRkaz"
             />
             <MainCard
               name="Sreehitha"
               role="Member"
               email="22bcs050@iiitdwd.ac.in"
               image={Sreehita}
+              hash="LiJHdWW=t7M|_Nj^NJRkx^kCRka}"
             />
           </div>
 
@@ -126,24 +134,28 @@ const CardContainer = () => {
               role="Vice President"
               email="21bcs019@iiitdwd.ac.in"
               image={Ashith_Shetty}
+              hash="L7BfhK-;.9NH00D*01WA~V?H~Bxt"
             />
             <MainCard
               name="Aryan TN"
               role="Member"
               email="21bds006@iiitdwd.ac.in"
               image={Aryan_TN}
+              hash="LFFrkbDjY6NL_Ls;t2xvpyad$*of"
             />
             <MainCard
               name="Anand Singh"
               role="Member"
               email="21bcs009@iiitdwd.ac.in"
               image={Anand}
+              hash="L29Zv89F0Bq]BsNI?vIT?dxD}QNx"
             />
             <MainCard
               name="Ashish Lal"
               role="Member"
               email="21bcs017@iiitdwd.ac.in"
               image={ashish_lal}
+              hash="LHEnn=?w2Z;1HD?I}DEK5RE2v~n$"
             />
           </div>
 
@@ -153,18 +165,21 @@ const CardContainer = () => {
               role="Member"
               email="21bcs121@iiitdwd.ac.in"
               image={Uday_teja}
+              hash="L6D[z+9YBo4o02D*ElRi~VRP~ANG"
             />
             <MainCard
               name="Kasi Bhanu Sameer"
               role="Member"
               email="21bec022@iiitdwd.ac.in"
               image={Bhanu}
+              hash="L%LNh}xb-:jd~pW:t7WXtSj?agj["
             />
             <MainCard
               name="Suchit Artal"
               role="Member"
               email="22bcs126@iiitdwd.ac.in"
               image={Suchit}
+              hash="LVIN:SD%_NWCa{IUNGs.%Mof-oay"
             />
           </div>
 
@@ -174,24 +189,28 @@ const CardContainer = () => {
               role="Member"
               email="22bcs092@iiitdwd.ac.in"
               image={Priyansh}
+              hash="L?J*VNWA%LoJ_Ne-ofoJtSjZRjf6"
             />
             <MainCard
               name="Varang Pratap Singh"
               role="Member"
               email="22bds062@iiitdwd.ac.in"
               image={Varang}
+              hash="L+KA.jWo%Ls:~oWVt7oftljuWXbH"
             />
             <MainCard
               name="Vansh Tolani"
               role="Member"
               email="22bds061@iiitdwd.ac.in"
               image={vansh}
+              hash="LCD]M3D+GFxbyqRQt2RkpfaJv~WB"
             />
             <MainCard
               name="Somil Jain"
               role="Member"
               email="22bec045@iiitdwd.ac.in"
               image={Somil}
+              hash="LSK,mKxt^%My~pkVE3RQ%Mj?niaz"
             />
           </div>
 
@@ -202,18 +221,21 @@ const CardContainer = () => {
               role="Content Head"
               email="21bcs026@iiitdwd.ac.in"
               image={Chaytali}
+              hash="LSK,mKxt^%My~pkVE3RQ%Mj?niaz"
             />
             <MainCard
               name="Aayushi Sinha"
               role="Member"
               email="21bcs120@iiitdwd.ac.in"
               image={Ayushi}
+              hash="LjIOIQR:o|WF?wNIR:ofyEogM|ay"
             />
             <MainCard
               name="Shreyansh Tiwari"
               role="Member"
               email="21bcs114@iiitdwd.ac.in"
               image={Shreyansh}
+              hash="L+Ma62of-:og~qWWogofWZWURjbF"
             />
 
             <MainCard
@@ -221,6 +243,7 @@ const CardContainer = () => {
               role="Member"
               email="22bcs103@iiitdwd.ac.in"
               image={Nomatha}
+              hash="LKGR*Y%Ml9S1~pxH-;Sc%3RPwdM{"
             />
           </div>
 
@@ -230,6 +253,7 @@ const CardContainer = () => {
               role="Member"
               email="22bcs019@iiitdwd.ac.in"
               image={Ashritha}
+              hash="LQHUnC-o%KI@~qs.R.oz^+RPnhbF"
             />
           </div>
 
@@ -240,12 +264,14 @@ const CardContainer = () => {
               role="Event Head"
               email="21bcs053@iiitdwd.ac.in"
               image={Pratik_Kende}
+              hash="L[I#opRjozRj_NWBogf6%Ns:s;oe"
             />
             <MainCard
               name="Chintan Chawda"
               role="Member"
               email="21bds013@iiitdwd.ac.in"
               image={chintan}
+              hash="LvJt*dIU-:t7~WM{tRt7M|WCRlay"
             />
 
             <MainCard
@@ -253,12 +279,14 @@ const CardContainer = () => {
               role="Member"
               email="22bcs054@iiitdwd.ac.in"
               image={Meghana}
+              hash="LCH1-xtgD~~p?^s.02?H?bn%rWWU"
             />
             <MainCard
               name="Vinay Jain"
               role="Member"
               email="22bcs137@iiitdwd.ac.in"
               image={Vinay_Jain}
+              hash="L7E{2x0K68Dk~R9aNuIU$ln.#kb]"
             />
           </div>
 
@@ -268,12 +296,14 @@ const CardContainer = () => {
               role="Member"
               email="22bec047@iiitdwd.ac.in"
               image={Sameera}
+              hash="LCFrY2?Zpt?a~qs=?G?aj_IVrst7"
             />
             <MainCard
               name="Aryan Jaiswal"
               role="Member"
               email="22bcs018@iiitdwd.ac.in"
               image={Aryan_jaiswal}
+              hash="LOKw:y0J?sx^~oE04n-=^--owKt8"
             />
           </div>
         </div>

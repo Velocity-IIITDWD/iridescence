@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Blurhash } from 'react-blurhash';
 import '../styles/SlideImage.css';
 
-function SlideImage({ image, title }) {
+function SlideImage({ image, title,bh_code }) {
   const [imageLoaded, setImageLoaded] = useState(false);
 
   useEffect(() => {
@@ -18,14 +18,15 @@ function SlideImage({ image, title }) {
       <div className="si-box" id="bxl">
         <div className="imgBox">
           <div style={{ display: imageLoaded ? 'none' : 'inline' }}>
-            <Blurhash
-              hash="L16RAU_N02Vr?b?bD%9Z0Loe^NRk"
-              width="200"
-              height="200"
-              resolutionX={32}
-              resolutionY={32}
-              punch={1}
-            />
+              <Blurhash
+                hash={bh_code}
+                width="30rem"
+                height="30rem"
+                resolutionX={32}
+                resolutionY={32}
+                punch={1}
+              />
+
           </div>
           <img
             src={image}

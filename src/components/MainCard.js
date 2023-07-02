@@ -1,9 +1,19 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from 'react';
+import { Blurhash } from 'react-blurhash';
 
 import "../styles/MembersCard.css";
 
 const MainCard = (props) => {
   const [showPopup, setShowPopup] = useState(false);
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  useEffect(() => {
+    const img = new Image();
+    img.onload = () => {
+      setImageLoaded(true);
+    };
+    img.src = props.image;
+  }, [props.image]);
 
   function fade() {
     var fadeElems = document.querySelectorAll('.box');
@@ -17,9 +27,9 @@ const MainCard = (props) => {
       }
     }
   }
-  
+
   window.addEventListener('load', fade);
-  
+
   window.addEventListener('scroll', fade);
   window.addEventListener('click', fade);
 
@@ -34,7 +44,17 @@ const MainCard = (props) => {
           setShowPopup(true);
         }}
       >
-        <img alt="" src={props.image} />
+        <div style={{ display: imageLoaded ? 'none' : 'inline' ,borderRadius:'50%' }}>
+          <Blurhash
+            hash={props.hash}
+            width="100%"
+            height="100%"
+            resolutionX={32}
+            resolutionY={32}
+            punch={1}
+          />
+        </div>
+        <img alt="" src={props.image}  style={{ display: !imageLoaded ? 'none' : 'inline' }} />
         <h2>{props.name}</h2>
         <h4>{props.role}</h4>
         <h5>{props.email}</h5>
