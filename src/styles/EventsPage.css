@@ -1,0 +1,87 @@
+/* EventsPage.css */
+
+.events-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.event-card {
+  margin-top: 40px;
+  width: calc(25% - 20px);
+  min-width: 300px;
+  height: 0;
+  padding-bottom: 125%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.event-thumbnail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s;
+}
+
+.event-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.event-name {
+  padding-bottom: 16px;
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+}
+
+.event-card:hover .event-thumbnail {
+  transform: scale(1.1);
+}
+
+.event-card:hover .event-info {
+  opacity: 1;
+}
+
+@keyframes FadeUp{
+
+    from{
+      opacity:0%;
+      transform: translate3d(0,8%,0);
+    }
+    to{
+      opacity:100%;
+      transform:none;
+  
+    }
+  }
+
+  
+@keyframes FadeUp2{
+
+    from{
+      opacity:0%;
+      transform: translate3d(0,15%,0);
+    }
+    to{
+      opacity:100%;
+      transform:none;
+  
+    }
+  }
