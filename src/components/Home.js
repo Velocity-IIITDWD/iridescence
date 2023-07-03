@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import herogif from "../Photo/College_website_AdobeExpress.gif"
+import herogif from "../Photo/h_College_website_AdobeExpress.gif"
 import { gsap, Power2 } from 'gsap';
 import "../styles/Home.css";
 
