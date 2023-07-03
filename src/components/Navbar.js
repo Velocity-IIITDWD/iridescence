@@ -16,6 +16,12 @@ function Navbar() {
     }
       
   };
+  const change=()=>{
+    if(window.location.pathname==='/'){
+      window.location.pathname="/#"
+    }
+
+  }
 
   const menuBtn = useRef(null)
   
@@ -36,7 +42,7 @@ function Navbar() {
         <Link to='/lensation' className='topnav-link' onClick={handleLinkClick}>Lensation</Link>
         <Link to='/team' className='topnav-link' onClick={handleLinkClick}>Team</Link>
         <Link to='/work' className='topnav-link'  onClick={handleLinkClick}>Work</Link>
-        <a href="/" className='dropdown-nav icon' onClick={handleClick}>   
+        <a href={change} className='dropdown-nav icon' onClick={handleClick}>    
             <FiMenu size={20}/>
         </a>
 
