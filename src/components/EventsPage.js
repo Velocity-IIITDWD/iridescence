@@ -101,7 +101,7 @@ const eventsData = [
 ]
 
 const EventCard = ({ event }) => {
-  const { id, name, thumbnail, driveLink } = event
+  const {  name, thumbnail, driveLink } = event
 
   return (
     <a href={driveLink} target="_blank" rel="noopener noreferrer">
