@@ -9,6 +9,7 @@ import image5 from './images/hey5.jpeg';
 import "./Lensation.css";
 import logo from './logo/logo.png';
 import Footer from '../Footer';
+import { Link } from "react-router-dom";
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -26,7 +27,7 @@ const Lensation = () => {
 
   useEffect(() => {
     gsap.utils.toArray(sectionsRef.current).forEach((section, i) => {
-      section.bg = section.querySelector(".bg"); 
+      section.bg = section.querySelector(".bg");
       section.bg.style.backgroundImage = `url(${imageUrls[i % imageUrls.length]})`;
       gsap.fromTo(section.bg, {
         backgroundPosition: () => i ? `60% ${-window.innerHeight * getRatio(section)}px` : "60% 0px"
@@ -35,44 +36,53 @@ const Lensation = () => {
         ease: "none",
         scrollTrigger: {
           trigger: section,
-          start: () => i ? "top bottom" : "top top", 
+          start: () => i ? "top bottom" : "top top",
           end: "bottom top",
           scrub: true,
-          invalidateOnRefresh: true 
+          invalidateOnRefresh: true
         }
       });
     });
   }, []);
 
-  let getRatio = el => window.innerHeight / (window.innerHeight + el.offsetHeight);
+  const getRatio = el => window.innerHeight / (window.innerHeight + el.offsetHeight);
 
   return (
     <>
       <div className='logo'>
-            <img src={logo} alt="lensationlgo" loading='lazy'/>
+        <img src={logo} alt="lensationlgo" />
       </div>
-      <section ref={el => sectionsRef.current[0] = el}>
-        <div className="bg"></div>
-        <h1 className='lensation_heading'>Travel</h1>
-      </section>
-      <section ref={el => sectionsRef.current[1] = el}>
-        <div className="bg"></div>
-        <h1 className='lensation_heading'>Monochrome</h1>
-      </section>
-      <section ref={el => sectionsRef.current[2] = el}>
-        <div className="bg"></div>
-        <h1 className='lensation_heading'>Symmetry</h1>
-      </section>
-      <section ref={el => sectionsRef.current[3] = el}>
-        <div className="bg"></div>
-        <h1 className='lensation_heading'>Silhouette</h1>
-      </section>
-      <section ref={el => sectionsRef.current[4] = el}>
-        <div className="bg"></div>
-        <h1 className='lensation_heading'>Macro Photography</h1>
-      </section>
-      <Footer/>
-
+      <Link to="/travel" ref={el => sectionsRef.current[0] = el} className='link'>
+        <section>
+          <div className="bg"></div>
+          <h1 className='lensation_heading'>Travel</h1>
+        </section>
+      </Link>
+      <Link to="/monochrome" ref={el => sectionsRef.current[1] = el} className='link'>
+        <section>
+          <div className="bg"></div>
+          <h1 className='lensation_heading'>Monochrome</h1>
+        </section>
+      </Link>
+      <Link to="/symmetry" ref={el => sectionsRef.current[2] = el} className='link'>
+        <section>
+          <div className="bg"></div>
+          <h1 className='lensation_heading'>Symmetry</h1>
+        </section>
+      </Link>
+      <Link to="/silhouette" ref={el => sectionsRef.current[3] = el} className='link'>
+        <section>
+          <div className="bg"></div>
+          <h1 className='lensation_heading'>Silhouette</h1>
+        </section>
+      </Link>
+      <Link to="/macro" ref={el => sectionsRef.current[4] = el} className='link'>
+        <section>
+          <div className="bg"></div>
+          <h1 className='lensation_heading'>Macro Photography</h1>
+        </section>
+      </Link>
+      <Footer />
     </>
   );
 };

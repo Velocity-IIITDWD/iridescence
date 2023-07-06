@@ -87,7 +87,7 @@ function Cards() {
     return () => {
       document.removeEventListener('click', handleClickOutside);
     };
-  }, []);
+  });
 
   const disableScroll = () => {
     document.body.style.overflow = 'hidden';

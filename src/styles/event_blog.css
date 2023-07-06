@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
 
-body {
-  overflow: hidden;
-}
+
 .eventList {
     display: flex;
     flex-direction: column;
@@ -49,7 +47,7 @@ body {
     margin-top: 3rem;
     margin-bottom: 3rem;
     display: flex;
-    align-items: end;
+    align-items: flex-end;
     opacity:0;
     transition:opacity 1s ease-in-out;
 }
@@ -65,7 +63,7 @@ body {
     background-repeat: no-repeat;
     margin-top: 7rem;
     display: flex;
-    align-items: end;
+    align-items: flex-end;
     opacity:1;
     animation: FadeUp 1s ease-in-out;
 }

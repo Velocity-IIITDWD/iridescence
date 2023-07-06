@@ -1,4 +1,3 @@
-import img1 from "../Work Photo/Screenshot 2023-04-01 231533.png";
 import img2 from "../Work Photo/DSC_6265.JPG"
 import img3 from "../Work Photo/DSC_0066.JPG"
 import img4 from "../Work Photo/DSC_3172.JPG"
