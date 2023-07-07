@@ -27,8 +27,8 @@ function PhotowalkPage() {
                 </div>
                 <div className='imagecontainer'><img src={udayimg} alt='takingphoto' /></div>
             </div>
-            <div class="content">
-                <div class="aboutthis">
+            <div className="content">
+                <div className="aboutthis">
                     <h2>What happens in a photowalk?</h2>
                     <p>Club activity where participants go out to a designated location and take photographs. The goal of a photowalk is to explore new areas, practice photography skills, and meet new people who share a passion for photography.</p>
                 </div>
@@ -36,12 +36,12 @@ function PhotowalkPage() {
             <div>
                 <h1 className='galleryheading'>The Photo Gallery</h1>
                 <div className='photogallery'> 
-                    <GalleryPhoto img={pk1} photrapher={"Clicked by Pratik Kende"} />
-                    <GalleryPhoto img={pk2} photrapher={"Clicked by Pratik Kende"} />
-                    <GalleryPhoto img={pk3} photrapher={"Clicked by Pratik Kende"} />
-                    <GalleryPhoto img={pk4} photrapher={"Clicked by Pratik Kende"} />
-                    <GalleryPhoto img={pk5} photrapher={"Clicked by Pratik Kende"} />
-                    <GalleryPhoto img={pk6} photrapher={"Clicked by Pratik Kende"} />
+                    <GalleryPhoto img={pk1} photographer={"Clicked by Pratik Kende"} />
+                    <GalleryPhoto img={pk2} photographer={"Clicked by Pratik Kende"} />
+                    <GalleryPhoto img={pk3} photographer={"Clicked by Pratik Kende"} />
+                    <GalleryPhoto img={pk4} photographer={"Clicked by Pratik Kende"} />
+                    <GalleryPhoto img={pk5} photographer={"Clicked by Pratik Kende"} />
+                    <GalleryPhoto img={pk6} photographer={"Clicked by Pratik Kende"} />
                 </div>
   
             </div>

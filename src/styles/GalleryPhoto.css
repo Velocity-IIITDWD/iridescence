@@ -33,9 +33,10 @@
   }
   
   .grid-container div p {
-    margin: 5px 0;
+    margin: 10px 0;
     padding: 0;
     text-align: center;
     font-style: italic;
   }
+
   

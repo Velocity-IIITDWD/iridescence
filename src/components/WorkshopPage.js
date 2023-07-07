@@ -27,8 +27,8 @@ function WorkshopPage() {
                 </div>
                 <div className='imagecontainer'><img src={mainimg} alt='takingphoto' /></div>
             </div>
-            <div class="content">
-                <div class="aboutthis">
+            <div className="content">
+                <div className="aboutthis">
                     <h2>What happens in this workshop?</h2>
                     <p>In club comprehensive photography workshop aimed at improving skills in using a DSLR camera. This workshop covered the basics of photography and provide hands-on training on how to effectively use a DSLR camera.</p>
                 </div>
@@ -36,12 +36,12 @@ function WorkshopPage() {
             <div>
                 <h1 className='galleryheading'>Glimpse from PPT</h1>
                 <div className='photogallery'> 
-                    <GalleryPhoto img={pk1} photrapher={"By Ashith Shetty"} />
-                    <GalleryPhoto img={pk2} photrapher={"By Ashith Shetty"} />
-                    <GalleryPhoto img={pk3} photrapher={"By Ashith Shetty"} />
-                    <GalleryPhoto img={pk4} photrapher={"By Ashith Shetty"} />
-                    <GalleryPhoto img={pk5} photrapher={"By Ashith Shetty"} />
-                    <GalleryPhoto img={pk6} photrapher={"By Ashith Shetty"} />
+                    <GalleryPhoto img={pk1} photographer={"By Ashith Shetty"} />
+                    <GalleryPhoto img={pk2} photographer={"By Ashith Shetty"} />
+                    <GalleryPhoto img={pk3} photographer={"By Ashith Shetty"} />
+                    <GalleryPhoto img={pk4} photographer={"By Ashith Shetty"} />
+                    <GalleryPhoto img={pk5} photographer={"By Ashith Shetty"} />
+                    <GalleryPhoto img={pk6} photographer={"By Ashith Shetty"} />
                 </div>
   
             </div>

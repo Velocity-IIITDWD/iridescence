@@ -9,7 +9,7 @@ function SlideImage({ image, title,bh_code }) {
     const img = new Image();
     img.onload = () => {
       setImageLoaded(true);
-    };
+    };  
     img.src = image;
   }, [image]);
 
