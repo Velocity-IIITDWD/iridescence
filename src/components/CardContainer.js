@@ -36,6 +36,8 @@ import chintan from "../images/compressed/CHINTAN.jpg"
 import ashish_lal from "../images/compressed/ASHISH LAL.JPG"
 import Ratnesh from "../images/compressed/Ratnesh.JPG"
 
+import Carousel from "./Carousel";
+
 const CardContainer = () => {
   function fade() {
     var fadeElems = document.querySelectorAll(".container h1");
@@ -308,6 +310,8 @@ const CardContainer = () => {
           </div>
         </div>
       </div>
+
+      <Carousel/>
 
       <Footer />
       <Copyright />

@@ -1,8 +1,8 @@
-import img2 from "../Work Photo/DSC_6265.JPG"
-import img3 from "../Work Photo/DSC_0066.JPG"
-import img4 from "../Work Photo/DSC_3172.JPG"
-import img5 from "../Work Photo/IMG_0430.JPG"
-import img6 from "../Work Photo/DSC_0112.JPG"
+import img2 from "../Work Photo/DSC_6265.jpg"
+import img3 from "../Work Photo/DSC_0066.jpg"
+import img4 from "../Work Photo/DSC_3172.jpg"
+import img5 from "../Work Photo/IMG_0430.jpg"
+import img6 from "../Work Photo/DSC_0112.jpg"
 export const event_blog_data = [
     {
         image: [img2,img5,img4,img5],
