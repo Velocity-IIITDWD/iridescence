@@ -61,9 +61,9 @@ const CardContainer = () => {
     <>
       <div>
         <div className="container">
-          <h1>Faculty Advisor</h1>
+          <h1>Team IRIDESCENCE</h1>
           <div className="row">
-            <MainCard name="Prabhu Prasad" email="prabhuprasad@iiitdwd.ac.in" image={Prabhu_sir}  hash="LaJbBY$xoyIq~pi^W?WCK-W?RPxu"/>
+            <MainCard name="Prabhu Prasad" role="Faculty Advisor" email="prabhuprasad@iiitdwd.ac.in" image={Prabhu_sir}  hash="LaJbBY$xoyIq~pi^W?WCK-W?RPxu"/>
           </div>
           <h1>Video Editing</h1>
 
@@ -183,16 +183,17 @@ const CardContainer = () => {
               image={Suchit}
               hash="LVIN:SD%_NWCa{IUNGs.%Mof-oay"
             />
-          </div>
-
-          <div className="row">
-            <MainCard
+              <MainCard
               name="Priyansh"
               role="Member"
               email="22bcs092@iiitdwd.ac.in"
               image={Priyansh}
               hash="L?J*VNWA%LoJ_Ne-ofoJtSjZRjf6"
             />
+          </div>
+
+          <div className="row">
+
             <MainCard
               name="Varang Pratap Singh"
               role="Member"

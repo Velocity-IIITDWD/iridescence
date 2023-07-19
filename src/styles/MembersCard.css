@@ -121,11 +121,11 @@
   font-size: 0.7rem;
 }
 
-.row .box h5 {
+.row .box a {
   padding-top: 4px;
   color: white;
   font-size: 0.6rem;
-
+  text-decoration:none;
   font-style: italic;
 }
 
@@ -186,11 +186,12 @@
   font-size: 1.6rem;
 }
 
-.popup-box h5 {
+.popup-box a {
   margin-top: 8px;
   color: white;
   font-size: 1.2rem;
   font-style: italic;
+  text-decoration:none;
 }
 
 @media screen and (min-width: 415px) {
@@ -268,7 +269,7 @@
     font-size: 1.8rem;
   }
 
-  .row .box h5 {
+  .row .box a {
     color: white;
     font-style: italic;
     font-size: 1.4rem;
