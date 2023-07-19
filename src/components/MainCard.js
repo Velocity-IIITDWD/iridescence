@@ -57,7 +57,7 @@ const MainCard = (props) => {
         <img alt="" src={props.image}  style={{ display: !imageLoaded ? 'none' : 'inline' }} />
         <h2>{props.name}</h2>
         <h4>{props.role}</h4>
-        <h5>{props.email}</h5>
+        <a href={`mailto:${props.email}`}>{props.email}</a>
       </div>
 
       <div className="popup-container">
@@ -67,7 +67,7 @@ const MainCard = (props) => {
               <img alt="" src={props.image} />
               <h2>{props.name}</h2>
               <h4>{props.role}</h4>
-              <h5>{props.email}</h5>
+              <a href={`mailto:${props.email}`}>{props.email}</a>
             </div>
           </div>
         )}
