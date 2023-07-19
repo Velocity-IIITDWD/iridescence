@@ -163,12 +163,12 @@
 
 }
 .container{
-    padding: 0;
+    padding:0px;
 }
 
 @media (max-width: 420px) {
   .container{
-    background-color: #26272b;
+    background-color:transparent;
   }
   
 }

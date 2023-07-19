@@ -60,12 +60,12 @@ const CardContainer = () => {
       <div>
         <div className="container">
           <h1>Team IRIDESCENCE</h1>
-          <div className="row">
+          <div className="faculty">
             <MainCard name="Prabhu Prasad" role="Faculty Advisor" email="prabhuprasad@iiitdwd.ac.in" image={Prabhu_sir}  hash="LaJbBY$xoyIq~pi^W?WCK-W?RPxu"/>
           </div>
           <h1>Video Editing</h1>
 
-          <div className="row">
+          <div className="row1">
             <MainCard
               name="Ratnesh Kherudkar"
               role="President"
@@ -96,7 +96,7 @@ const CardContainer = () => {
             />
           </div>
 
-          <div className="row">
+          <div className="row1">
             <MainCard
               name="Lohith B"
               role="Member"
@@ -128,7 +128,7 @@ const CardContainer = () => {
           </div>
 
           <h1>Photography & Videography</h1>
-          <div className="row">
+          <div className="row1">
             <MainCard
               name="Ashith Shetty"
               role="Vice President"
@@ -159,7 +159,7 @@ const CardContainer = () => {
             />
           </div>
 
-          <div className="row">
+          <div className="row1">
             <MainCard
               name="Uday Teja"
               role="Member"
@@ -190,7 +190,7 @@ const CardContainer = () => {
             />
           </div>
 
-          <div className="row">
+          <div className="row1">
 
             <MainCard
               name="Varang Pratap Singh"
@@ -216,7 +216,7 @@ const CardContainer = () => {
           </div>
 
           <h1>Content writing</h1>
-          <div className="row">
+          <div className="row1">
             <MainCard
               name="Chaytali Jawalekar"
               role="Content Head"
@@ -248,7 +248,7 @@ const CardContainer = () => {
             />
           </div>
 
-          <div className="row">
+          <div className="row1">
             <MainCard
               name="Azmeera Ashritha"
               role="Member"
@@ -259,7 +259,7 @@ const CardContainer = () => {
           </div>
 
           <h1>Social media & Event management</h1>
-          <div className="row">
+          <div className="row1">
             <MainCard
               name="Pratik Kende"
               role="Event Head"
@@ -291,7 +291,7 @@ const CardContainer = () => {
             />
           </div>
 
-          <div className="row">
+          <div className="row1">
             <MainCard
               name="T Sameera"
               role="Member"
