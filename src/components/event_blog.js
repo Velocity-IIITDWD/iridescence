@@ -3,7 +3,7 @@ import { event_blog_data } from './event_blog_data';
 import { ImCross } from 'react-icons/im';
 import { BiRightArrowCircle, BiLeftArrowCircle } from 'react-icons/bi';
 import '../styles/event_blog.css';
-import Footer from './Footer';
+
 
 function Cards() {
   const [selectedEventIndex, setSelectedEventIndex] = useState(null);
@@ -148,7 +148,6 @@ function Cards() {
           </div>
         ))}
       </div>
-      <Footer />
     </>
   );
 }

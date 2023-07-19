@@ -1,6 +1,4 @@
 import "../styles/MembersCard.css";
-import Footer from "./Footer";
-import Copyright from "./Copyright";
 import React from "react";
 import MainCard from "./MainCard";
 
@@ -313,9 +311,6 @@ const CardContainer = () => {
       </div>
 
       <Carousel/>
-
-      <Footer />
-      <Copyright />
     </>
   );
 };

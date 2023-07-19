@@ -1,4 +1,8 @@
 import React,{ useState, useEffect } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+
+
 import Navbar from "./components/Navbar";
 import CardContainer from './components/CardContainer';
 import LandingPage from "./components/LandingPage";
@@ -13,6 +17,7 @@ import Travel from "./components/Lensation/Travel";
 import Monochrome from "./components/Lensation/Monochrome";
 import Symmetry from "./components/Lensation/Symmetry";
 import Macro from "./components/Lensation/Macro";
+import Footer from "./components/Footer";
 
 
 import {
@@ -56,6 +61,7 @@ function App() {
           <Route path="/macro" element={<Macro/>}/>
 
         </Routes>
+        <Footer/>
       </Router>
 
     </>

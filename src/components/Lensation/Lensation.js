@@ -8,7 +8,6 @@ import image4 from './images/hey4.jpeg';
 import image5 from './images/hey5.jpeg';
 import "./Lensation.css";
 import logo from './logo/logo.png';
-import Footer from '../Footer';
 import { Link } from "react-router-dom";
 
 
@@ -82,7 +81,6 @@ const Lensation = () => {
           <h1 className='lensation_heading'>Macro Photography</h1>
         </section>
       </Link>
-      <Footer />
     </>
   );
 };
