@@ -1,5 +1,5 @@
 # Iridescence Club Website
-
+Chnages
 Welcome to the Iridescence Club's website! This website showcases the work of our photography and videography editing club, providing a platform for our members to display their talent, share their experiences, and connect with others who share a passion for editing.
 
 ![WhatsApp Image 2023-06-24 at 13 03 46](https://github.com/Team-Iridescence/website/assets/111903817/e310fadb-54df-4ca5-b565-4dfd79974fb3)
