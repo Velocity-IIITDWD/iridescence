@@ -168,7 +168,7 @@
 
 @media (max-width: 420px) {
   .container{
-    background-color: #26272b;
+    background-color:transparent;
   }
   
 }

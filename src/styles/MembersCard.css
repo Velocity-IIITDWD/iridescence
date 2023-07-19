@@ -64,7 +64,7 @@
 
 }
 
-.row {
+.row1 {
   display: flex;
   justify-content: center;
 
@@ -74,7 +74,7 @@
   margin-left: 15px;
 }
 
-.row .box {
+.row1 .box {
   width: 140px;
   height: 140px;
   background-color: #171717;
@@ -85,7 +85,7 @@
   transition: opacity 0.5s ease-in-out;
 }
 
-.row .box.is-visible {
+.row1 .box.is-visible {
   width: 140px;
   height: 140px;
   background-color: #171717;
@@ -95,7 +95,7 @@
   animation: FadeUp 1s ease-in-out;
 }
 
-.row .box img {
+.row1 .box img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -109,19 +109,19 @@
   margin-top: 8px;
 }
 
-.row .box h2 {
+.row1 .box h2 {
   color: white;
   font-size: 1rem;
   cursor: pointer;
 }
 
-.row .box h4 {
+.row1 .box h4 {
   padding-top: 2px;
   color: white;
   font-size: 0.7rem;
 }
 
-.row .box a {
+.row1 .box a {
   padding-top: 4px;
   color: white;
   font-size: 0.6rem;
@@ -221,7 +221,7 @@
     animation: FadeUp2 1s ease-in-out;
   }
 
-  .row .box {
+  .row1 .box {
     width: 250px;
     height: 250px;
     background-color: #171717;
@@ -233,7 +233,7 @@
     transition: opacity 0.5s ease-in-out;
   }
 
-  .row .box.is-visible {
+  .row1 .box.is-visible {
     width: 250px;
     height: 250px;
     background-color: #171717;
@@ -245,10 +245,10 @@
     animation: FadeUp 1s ease-in-out;
   }
 
-  .row {
+  .row1 {
     padding-top: 10px;
   }
-  .row .box img {
+  .row1 .box img {
     width: 140px;
     height: 140px;
     border-radius: 50%;
@@ -258,18 +258,18 @@
     height: 140px;
     border-radius: 50%;
   }
-  .row .box h2 {
+  .row1 .box h2 {
     color: white;
 
     font-size: 2rem;
   }
 
-  .row .box h4 {
+  .row1 .box h4 {
     color: white;
     font-size: 1.8rem;
   }
 
-  .row .box a {
+  .row1 .box a {
     color: white;
     font-style: italic;
     font-size: 1.4rem;
