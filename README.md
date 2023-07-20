@@ -6,7 +6,7 @@
 [![Contributors](https://img.shields.io/github/contributors/Velocity-IIITDWD/iridescence)](https://github.com/Velocity-IIITDWD/iridescence/graphs/contributors)
 
 
-### Iridescence Club's website! 
+## Iridescence Club's website! 
  - This website highlights the work of our photography and videography editing club, giving our members a platform to share their skills, experiences, and love for editing with others.
 
 ## Table of Contents
@@ -53,6 +53,10 @@ Note
 Your app is ready to be deployed!
 
 ## Technologies Used
-- React: A JavaScript library for building user interfaces.
-- GSAP (GreenSock Animation Platform): A powerful JavaScript animation library for creating smooth and engaging animations.
+ - JavaScript 61.8%
+ - CSS 36.0%
+ - HTML 2.2%
+
+## Preview
+![screencapture-clubiridescence-netlify-app-2023-07-20-14_40_34](https://github.com/michaelgikunda/iridescence/assets/125220330/58c5c137-ddff-4024-bb61-8914c0d64a6a)
 
