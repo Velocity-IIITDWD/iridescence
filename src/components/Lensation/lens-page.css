@@ -1,0 +1,43 @@
+.galleryWrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    max-width: auto;
+    margin: 0 auto;
+  }
+  
+.galleryWrap .single {
+width: 420px;
+}
+
+.galleryWrap .single img {
+max-width: 100%;
+}
+
+.all {
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.title{
+    text-align: center;
+    font-size: 8vh;
+}
+
+.description{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 15px;
+    text-align: center;
+    font-family: montserrat;
+}
+
+.line{
+    padding-left: 18%;
+    padding-right: 18%; 
+}
+
+  
