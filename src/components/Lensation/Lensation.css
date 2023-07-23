@@ -1,110 +1,139 @@
-  section {
-      position: relative;
-      height: 60vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor:pointer;
-      -webkit-transition: all 350ms ease;
-      transition: all 350ms ease;
-      
-  }
-  section:hover .bg{
-      /* -webkit-filter: brightness(50%); */
-      filter: brightness(50%);
-  }
-
-  .bg {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      /* z-index: -1; */
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      object-fit: cover;
-      transition: all 350ms ease;
-    }
-  .lensation_heading {
-      color: white;
-      text-shadow: 1px 1px 3px black;
-      /* z-index: 1; */
-      font-size: 4em;
-      font-weight: 600;
-      font-family: Montserrat;
-      opacity: 0;
-      /* transform: translateY(20px); */
-      transition: all 350ms ease;
-      /* z-index: 2; */
-
-    }
-
-    section:hover .lensation_heading{
-      opacity: 1;
-      transform: translateY(-50%);
-      position: relative;
-      z-index: 2;
-      
-    }
-
-  .logo{
-      padding: 20px 40px 10px;
-      position: relative;
-      display: flex;
-      align-items: center;
-  }
-
-  .menu{
-      font-size: 2.5rem;
-  }
-
-  .menu-bar{
-      position: absolute;
-      right:10px;
-      display: flex;
-  }
-
-  .material-symbols-outlined {
-      font-variation-settings:
-      'FILL' 1,
-      'wght' 600,
-      'GRAD' 0,
-      'opsz' 48
-    }
-    
-  .logo img{
-      object-fit :contain;
-      min-height: 2rem;
-      width:100%;
-      max-height:4rem;
-  }
-
-  .lensation_heading:after {    
-      background: none repeat scroll 0 0 transparent;
-      bottom: 0;
-      content: "";
-      display: block;
-      height: 2px;
-      left: 50%;
-      position: absolute;
-      background: #fff;
-      transition: width 0.3s ease 0s, left 0.3s ease 0s;
-      width: 0;
-    
-
-    }
-    .lensation_heading:hover:after { 
-      width: 100%; 
-      left: 0;
-      
-    }
-
-.link{
-  text-decoration: none;
+section {
+  position: relative;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor:pointer;
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+  
+}
+section:hover .bg{
+  filter: brightness(50%);
 }
 
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  transition: all 350ms ease;
+}
+.lensation_heading {
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  /* z-index: 1; */
+  font-size: 4em;
+  font-weight: 600;
+  font-family: Montserrat;
+  opacity: 0;
+  /* transform: translateY(20px); */
+  transition: all 350ms ease;
+  /* z-index: 2; */
 
-    
-    
+}
+
+section:hover .lensation_heading{
+  opacity: 1;
+  transform: translateY(-50%);
+  position: relative;
+  z-index: 2;
+  
+}
+
+.logo{
+  padding: 30px 40px 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.menu{
+  font-size: 2.5rem;
+}
+
+.menu-bar{
+  position: absolute;
+  right:10px;
+  display: flex;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.logo img{
+  object-fit :contain;
+  min-height: 2rem;
+  width:100%;
+  max-height:4rem;
+}
+
+.lensation_heading:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+
+
+}
+.lensation_heading:hover:after { 
+  width: 100%; 
+  left: 0;
+  
+}
+
+.link{
+text-decoration: none;
+}
+
+.desc{
+text-align: center;
+padding-top: .3%;
+padding-left: 12%;
+padding-right: 12%;
+padding-bottom: .8%;
+font-weight: 600;
+font-size: medium;
+font-family: montserrat;
+}
+
+.applications{
+text-align: center;
+padding-left: .4%;
+padding-right: .4%;
+padding-bottom: .9%;
+font-size: x-large;
+font-weight: bold;
+}
+
+.app-but{
+border: none;
+padding-left: .3%;
+padding-right: .3%;
+color: rgb(21, 102, 156);
+font-weight: bold;
+font-size: x-large;
+
+}
+
+.app-but:hover{
+color: black;
+cursor: pointer;
+}

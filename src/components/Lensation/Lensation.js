@@ -8,6 +8,7 @@ import image4 from './images/hey4.jpeg';
 import image5 from './images/hey5.jpeg';
 import "./Lensation.css";
 import logo from './logo/logo.png';
+import Footer from '../Footer';
 import { Link } from "react-router-dom";
 
 
@@ -51,6 +52,15 @@ const Lensation = () => {
       <div className='logo'>
         <img src={logo} alt="lensationlgo" />
       </div>
+      <div className='desc'>
+          Capture the essence of Lensation, the monthly online contest organized by Iridescence club. Showcasing the best clicks on a monthly theme, this platform welcomes photographers of all skill levels to share their artistry. Unleash your creativity, and seize the opportunity to get showcased on our platforms!
+      </div>
+      <div className='applications'>
+        July's theme - Food Photography
+        <a className='app-but' href='#form-link'>
+            Submit
+        </a>
+      </div>
       <Link to="/travel" ref={el => sectionsRef.current[0] = el} className='link'>
         <section>
           <div className="bg"></div>
@@ -81,6 +91,7 @@ const Lensation = () => {
           <h1 className='lensation_heading'>Macro Photography</h1>
         </section>
       </Link>
+      <Footer />
     </>
   );
 };
