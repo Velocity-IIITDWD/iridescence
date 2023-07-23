@@ -38,4 +38,33 @@
     text-align: center;
     font-style: italic;
   }
+
+.tutorial_container{
+  margin: 40px 0;
+  background-color:#D3D3D3;
+  padding: 20px;
+}
+
+.tutorial_container h2{
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  background-image: radial-gradient(ellipse, #553c9a, #ee4b2b);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.video-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .video-container {
+    flex-direction: column;
+  }
+  
+}
   

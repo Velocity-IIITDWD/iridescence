@@ -9,14 +9,35 @@ import pk4 from "../Workshop/Screenshot 2023-06-30 164223.png";
 import pk5 from "../Workshop/Screenshot 2023-06-30 164237.png";
 import pk6 from "../Workshop/Screenshot 2023-06-30 164257.png";
 
+import VideoCard from './VideoCard';
+
 function WorkshopPage() {
+    const videos = [
+        {
+            id: 'WXdAX0No2hM',
+            title: 'Be a Better Photographer in 45 mins by Sudhir Shivaram Photography',
+        },
+        {
+            id: 'IyR_uYsRdPs',
+            title: 'Photoshop for Beginners by Envato Tuts+',
+        },
+        {
+            id: 'keoszhf4DZ8',
+            title: 'Premiere Pro Tutorial for Beginners 2023 - Everything You NEED to KNOW! by Vince Opra',
+        },
+        {
+            id: 'SlNviMsi0K0',
+            title: 'CAMERA ANGLES to Enhance Your Films by Parker Walbeck',
+        },
+    ];
+
     return (
         <div>
             <div className='aboutphotowalk'>
                 <div className='heading'><h1 className='maintitle'>Beginners Workshop</h1></div>
                 <div className='photowalkdesc'>
                     <div id='container'>
-                    Develop
+                        Develop
                         <div id='flip'>
                             <div><div>Master</div></div>
                             <div><div>Ace</div></div>
@@ -35,7 +56,7 @@ function WorkshopPage() {
             </div>
             <div>
                 <h1 className='galleryheading'>Glimpse from PPT</h1>
-                <div className='photogallery'> 
+                <div className='photogallery'>
                     <GalleryPhoto img={pk1} photographer={"By Ashith Shetty"} />
                     <GalleryPhoto img={pk2} photographer={"By Ashith Shetty"} />
                     <GalleryPhoto img={pk3} photographer={"By Ashith Shetty"} />
@@ -43,7 +64,16 @@ function WorkshopPage() {
                     <GalleryPhoto img={pk5} photographer={"By Ashith Shetty"} />
                     <GalleryPhoto img={pk6} photographer={"By Ashith Shetty"} />
                 </div>
-  
+                <div className='tutorial_container'>
+                    <h2>Recommended Tutorial's</h2>
+                    <div className='video-container'>
+                        {videos.map((video) => (
+                            <VideoCard key={video.id} videoId={video.id} title={video.title} />
+                        ))}
+                    </div>
+
+                </div>
+
             </div>
         </div>
     );
