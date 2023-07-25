@@ -3,7 +3,7 @@ import { FiMenu, FiX } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
 import '../styles/Navbar.css';
-import mainlogo from '../Photo/logo.png';
+import mainlogo from '../ImagesFolder/Photo/logo.png';
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

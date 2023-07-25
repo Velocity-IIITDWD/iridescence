@@ -2,8 +2,7 @@ import React, { useRef, useState, useEffect } from 'react';
 import { event_blog_data } from './event_blog_data';
 import { ImCross } from 'react-icons/im';
 import { BiRightArrowCircle, BiLeftArrowCircle } from 'react-icons/bi';
-import '../styles/event_blog.css';
-
+import '../../styles/event_blog.css';
 
 function Cards() {
   const [selectedEventIndex, setSelectedEventIndex] = useState(null);

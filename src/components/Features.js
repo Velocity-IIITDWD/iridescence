@@ -1,10 +1,10 @@
 import React from 'react'
 import "../styles/Features.css";
 import SlideImage from "./SlideImage"
-import Lphotographer from "../Photo/LIMG_4062.JPG.jpeg"
-import Lvideography from "../Photo/LIMG_8517.JPG.jpeg"
-import Lediting from "../Photo/Lediting.jpeg"
-import Lcontent from "../Photo/Lcontent.jpeg"
+import Lphotographer from "../ImagesFolder/Photo/LIMG_4062.JPG.jpeg"
+import Lvideography from "../ImagesFolder/Photo/LIMG_8517.JPG.jpeg"
+import Lediting from "../ImagesFolder/Photo/Lediting.jpeg"
+import Lcontent from "../ImagesFolder/Photo/Lcontent.jpeg"
 
 function Features() {
   return (

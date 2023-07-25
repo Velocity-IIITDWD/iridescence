@@ -1,14 +1,12 @@
-import img2 from "../Work_Photo/DSC_0066.jpg"
-import img3 from "../Work_Photo//DSC_0112.jpg"
-import img4 from "../Work_Photo/DSC_3172.jpg"
+import img2 from "../../ImagesFolder/Work_Photo/DSC_0066.jpg"
+import img3 from "../../ImagesFolder/Work_Photo//DSC_0112.jpg"
+import img4 from "../../ImagesFolder/Work_Photo/DSC_3172.jpg"
+import img5 from "../../ImagesFolder/Work_Photo/DSC_6265.jpg"
+import img7 from "../../ImagesFolder/Work_Photo/DSC_0141.JPG"
+import img8 from "../../ImagesFolder/Work_Photo/DSC_5926.JPG"
+import img9 from "../../ImagesFolder/Work_Photo/DSC_0328.JPG"
 
-
-import img5 from "../Work_Photo/DSC_6265.jpg"
-import img7 from "../Work_Photo/DSC_0141.JPG"
-import img8 from "../Work_Photo/DSC_5926.JPG"
-import img9 from "../Work_Photo/DSC_0328.JPG"
-
-import img6 from "../Work_Photo/IMG_0430.jpg"
+import img6 from "../../ImagesFolder/Work_Photo/IMG_0430.jpg"
 
 export const event_blog_data = [
     {

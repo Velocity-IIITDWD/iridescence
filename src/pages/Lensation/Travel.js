@@ -1,5 +1,5 @@
 import React from 'react'
-import "./lens-page.css"
+import "../../styles/lens-page.css"
 import LensPage from './LensPage'
 
 function Travel() {

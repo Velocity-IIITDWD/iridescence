@@ -28,7 +28,7 @@
 
 .welcome-logo {
   position: absolute;
-  background-image: url("../Photo/main.jpg");
+  background-image: url("../ImagesFolder/Photo/main.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;

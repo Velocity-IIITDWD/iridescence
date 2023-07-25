@@ -1,15 +1,15 @@
 import React from 'react';
-import "../styles/WorkshopPage.css";
-import mainimg from "../Photo/Screenshot_20230629-231915_Instagram.jpg";
-import GalleryPhoto from './GalleryPhoto';
-import pk1 from "../Workshop/Screenshot 2023-06-30 164117.png";
-import pk2 from "../Workshop/Screenshot 2023-06-30 164156.png";
-import pk3 from "../Workshop/Screenshot 2023-06-30 164213.png";
-import pk4 from "../Workshop/Screenshot 2023-06-30 164223.png";
-import pk5 from "../Workshop/Screenshot 2023-06-30 164237.png";
-import pk6 from "../Workshop/Screenshot 2023-06-30 164257.png";
+import "../../styles/WorkshopPage.css";
+import mainimg from "../../ImagesFolder/Photo/Screenshot_20230629-231915_Instagram.jpg";
+import GalleryPhoto from '../../components/GalleryPhoto';
+import pk1 from "../../ImagesFolder/Workshop/Screenshot 2023-06-30 164117.png";
+import pk2 from "../../ImagesFolder/Workshop/Screenshot 2023-06-30 164156.png";
+import pk3 from "../../ImagesFolder/Workshop/Screenshot 2023-06-30 164213.png";
+import pk4 from "../../ImagesFolder/Workshop/Screenshot 2023-06-30 164223.png";
+import pk5 from "../../ImagesFolder/Workshop/Screenshot 2023-06-30 164237.png";
+import pk6 from "../../ImagesFolder/Workshop/Screenshot 2023-06-30 164257.png";
 
-import VideoCard from './VideoCard';
+import VideoCard from '../../components/VideoCard';
 
 function WorkshopPage() {
     const videos = [

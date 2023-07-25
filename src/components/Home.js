@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { gsap, Power2 } from 'gsap';
 import "../styles/Home.css";
-import herogif from "../Photo/h_College_website_AdobeExpress.gif";
-import heropng from "../Photo/l_College_website_AdobeExpress_11zon.png";
+import herogif from "../ImagesFolder/Photo/h_College_website_AdobeExpress.gif";
+import heropng from "../ImagesFolder/Photo/l_College_website_AdobeExpress_11zon.png";
 
 function Home() {
   const heroRef = useRef(null);

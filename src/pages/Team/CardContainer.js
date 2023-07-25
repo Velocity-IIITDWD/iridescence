@@ -1,40 +1,40 @@
-import "../styles/MembersCard.css";
+import "../../styles/MembersCard.css";
 import React from "react";
-import MainCard from "./MainCard";
+import MainCard from "../../components/MainCard";
 
-import Ashith_Shetty from "../images/compressed/Ashith_Shetty.JPG";
-import Mandar from "../images/compressed/Mandar.JPG";
-import Pratik_Kende from "../images/compressed/Pratik_Kende.JPG";
-import Uday_teja from "../images/compressed/Uday_teja.JPG";
-import Bhanu from "../images/compressed/Bhanu.JPG";
-import Suchit from "../images/compressed/Suchit.JPG";
-import Somil from "../images/compressed/Somil.JPG";
-import Priyansh from "../images/compressed/Priyansh.JPG";
-import Anand from "../images/compressed/Anand.JPG";
-import Varang from "../images/compressed/Varang.JPG";
-import Jatin from "../images/compressed/Jatin.JPG";
-import Shreyansh from "../images/compressed/Shreyansh.JPG";
-import Chinmay_Shewale from "../images/compressed/Chinmay_Shewale.JPG";
-import vansh from "../images/compressed/Vansh.JPG";
-import Lohith from "../images/compressed/Lohith.JPG";
-import Aryan_jaiswal from "../images/compressed/Aryan_Jaiswal.JPG";
-import Vinay_Jain from "../images/compressed/Vinay_Jain.JPG";
-import Ashitosh from "../images/compressed/Ashitosh.JPG";
-import Harikiran from "../images/compressed/Harikiran.JPG";
-import Aryan_TN from "../images/compressed/Aryan_TN.JPG";
-import Sreehita from "../images/compressed/Sreehita.JPG";
-import Meghana from "../images/compressed/Meghana.JPG";
-import Ayushi from "../images/compressed/Ayushi_sinha.JPG";
-import Chaytali from "../images/compressed/Chaytali.JPG";
-import Ashritha from "../images/compressed/Ashritha.JPG";
-import Sameera from "../images/compressed/Sameera.JPG";
-import Nomatha from "../images/compressed/Nomatha.JPG";
-import Prabhu_sir  from "../images/compressed/PrabhuSir.jpg"
-import chintan from "../images/compressed/CHINTAN.jpg"
-import ashish_lal from "../images/compressed/ASHISH LAL.JPG"
-import Ratnesh from "../images/compressed/Ratnesh.JPG"
+import Ashith_Shetty from "../../ImagesFolder/images/compressed/Ashith_Shetty.JPG";
+import Mandar from "../../ImagesFolder/images/compressed/Mandar.JPG";
+import Pratik_Kende from "../../ImagesFolder/images/compressed/Pratik_Kende.JPG";
+import Uday_teja from "../../ImagesFolder/images/compressed/Uday_teja.JPG";
+import Bhanu from "../../ImagesFolder/images/compressed/Bhanu.JPG";
+import Suchit from "../../ImagesFolder/images/compressed/Suchit.JPG";
+import Somil from "../../ImagesFolder/images/compressed/Somil.JPG";
+import Priyansh from "../../ImagesFolder/images/compressed/Priyansh.JPG";
+import Anand from "../../ImagesFolder/images/compressed/Anand.JPG";
+import Varang from "../../ImagesFolder/images/compressed/Varang.JPG";
+import Jatin from "../../ImagesFolder/images/compressed/Jatin.JPG";
+import Shreyansh from "../../ImagesFolder/images/compressed/Shreyansh.JPG";
+import Chinmay_Shewale from "../../ImagesFolder/images/compressed/Chinmay_Shewale.JPG";
+import vansh from "../../ImagesFolder/images/compressed/Vansh.JPG";
+import Lohith from "../../ImagesFolder/images/compressed/Lohith.JPG";
+import Aryan_jaiswal from "../../ImagesFolder/images/compressed/Aryan_Jaiswal.JPG";
+import Vinay_Jain from "../../ImagesFolder/images/compressed/Vinay_Jain.JPG";
+import Ashitosh from "../../ImagesFolder/images/compressed/Ashitosh.JPG";
+import Harikiran from "../../ImagesFolder/images/compressed/Harikiran.JPG";
+import Aryan_TN from "../../ImagesFolder/images/compressed/Aryan_TN.JPG";
+import Sreehita from "../../ImagesFolder/images/compressed/Sreehita.JPG";
+import Meghana from "../../ImagesFolder/images/compressed/Meghana.JPG";
+import Ayushi from "../../ImagesFolder/images/compressed/Ayushi_sinha.JPG";
+import Chaytali from "../../ImagesFolder/images/compressed/Chaytali.JPG";
+import Ashritha from "../../ImagesFolder/images/compressed/Ashritha.JPG";
+import Sameera from "../../ImagesFolder/images/compressed/Sameera.JPG";
+import Nomatha from "../../ImagesFolder/images/compressed/Nomatha.JPG";
+import Prabhu_sir  from "../../ImagesFolder/images/compressed/PrabhuSir.jpg"
+import chintan from "../../ImagesFolder/images/compressed/CHINTAN.jpg"
+import ashish_lal from "../../ImagesFolder/images/compressed/ASHISH LAL.JPG"
+import Ratnesh from "../../ImagesFolder/images/compressed/Ratnesh.JPG"
 
-import Carousel from "./Carousel";
+import Carousel from "../../components/Carousel";
 
 const CardContainer = () => {
   function fade() {

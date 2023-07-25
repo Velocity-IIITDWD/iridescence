@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Blurhash } from 'react-blurhash';
 import '../styles/Card.css';
-import lcliq from "../Photo/lowDSC_5249 (1).jpeg";
+import lcliq from "../ImagesFolder/Photo/lowDSC_5249 (1).jpeg";
 import { Link } from 'react-router-dom';
 
 const CardPotowalk = () => {

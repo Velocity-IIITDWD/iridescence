@@ -1,4 +1,4 @@
-import "./lens-page.css"
+import "../../styles/lens-page.css"
 import React from 'react'
 import LensPage from './LensPage'
 

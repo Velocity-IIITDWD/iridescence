@@ -1,4 +1,4 @@
-import './lens-page.css'
+import "../../styles/lens-page.css"
 
 const LensPage = ({galleryImages}) => {
   return (

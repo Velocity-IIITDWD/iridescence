@@ -3,19 +3,20 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 import Navbar from "./components/Navbar";
-import CardContainer from './components/CardContainer';
-import LandingPage from "./components/LandingPage";
-import Blog from "./components/event_blog";
-import PageLoading from "./components/PageLoading";
-import Lensation from "./components/Lensation/Lensation";
-import EventsPage from "./components/EventsPage";
-import PhotowalkPage from "./components/PhotowalkPage";
-import WorkshopPage from "./components/WorkshopPage";
+import CardContainer from './pages/Team/CardContainer';
+import LandingPage from "./pages/Home/LandingPage";
+import Blog from "./pages/Work/event_blog";
+import PageLoading from "./pages/Loading/PageLoading";
+import Lensation from "./pages/Lensation/Lensation";
+import EventsPage from "./pages/Events/EventsPage";
+import PhotowalkPage from "./pages/Photowalk/PhotowalkPage";
+import WorkshopPage from "./pages/Workshop/WorkshopPage";
 
-import Travel from "./components/Lensation/Travel";
-import Monochrome from "./components/Lensation/Monochrome";
-import Symmetry from "./components/Lensation/Symmetry";
-import Macro from "./components/Lensation/Macro";
+import Travel from "./pages/Lensation/Travel";
+import Monochrome from "./pages/Lensation/Monochrome";
+import Symmetry from "./pages/Lensation/Symmetry";
+import Macro from "./pages/Lensation/Macro";
+import Silhouette from "./pages/Lensation/Silhouette";
 import Footer from "./components/Footer";
 
 
@@ -25,7 +26,7 @@ import {
   Route,
 
 } from "react-router-dom";
-import Silhouette from "./components/Lensation/Silhouette";
+
 
 function App() {
   const [loading, setLoading] = useState(true);

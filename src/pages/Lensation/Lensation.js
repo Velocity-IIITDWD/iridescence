@@ -1,13 +1,13 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
-import image1 from './images/hey1.jpeg';
-import image2 from './images/hey2.jpeg';
-import image3 from './images/hey3.jpeg';
-import image4 from './images/hey4.jpeg';
-import image5 from './images/hey5.jpeg';
-import "./Lensation.css";
-import logo from './logo/logo.png';
+import image1 from '../../ImagesFolder/imagesLensation/hey1.jpeg';
+import image2 from '../../ImagesFolder/imagesLensation/hey2.jpeg';
+import image3 from '../../ImagesFolder/imagesLensation/hey3.jpeg';
+import image4 from '../../ImagesFolder/imagesLensation/hey4.jpeg';
+import image5 from '../../ImagesFolder/imagesLensation/hey5.jpeg';
+import "../../styles/Lensation.css";
+import logo from '../../ImagesFolder/imagesLensation/logo/logo.png';
 import { Link } from "react-router-dom";
 
 

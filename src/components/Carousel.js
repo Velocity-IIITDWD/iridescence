@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import '../styles/Carousel3d.css';
-import img1 from "../MGphoto/_MG_1688.jpg"
-import img2 from "../MGphoto/DSC_0027.jpg"
-import img3 from "../MGphoto/DSC_0203.jpg"
-import img4 from "../MGphoto/DSC_0210 (1).jpg"
-import img5 from "../MGphoto/DSC_0334.jpg"
-import img6 from "../MGphoto/IMG_8513.jpg"
-import img7 from "../MGphoto/DSC_0448.jpg"
-import img8 from "../MGphoto/DSC_0902 (1).jpg"
+import img1 from "../ImagesFolder/MGphoto/_MG_1688.jpg"
+import img2 from "../ImagesFolder/MGphoto/DSC_0027.jpg"
+import img3 from "../ImagesFolder/MGphoto/DSC_0203.jpg"
+import img4 from "../ImagesFolder/MGphoto/DSC_0210 (1).jpg"
+import img5 from "../ImagesFolder/MGphoto/DSC_0334.jpg"
+import img6 from "../ImagesFolder/MGphoto/IMG_8513.jpg"
+import img7 from "../ImagesFolder/MGphoto/DSC_0448.jpg"
+import img8 from "../ImagesFolder/MGphoto/DSC_0902 (1).jpg"
 
 const Carousel = () => {
   const [angle, setAngle] = useState(0);
