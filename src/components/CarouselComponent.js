@@ -11,6 +11,20 @@ import img4 from "../ImagesFolder/Topphoto/compressed/DSC_0155-min.JPG";
 import img5 from "../ImagesFolder/Topphoto/compressed/DSC_0545-min.JPG";
 import img6 from "../ImagesFolder/Topphoto/compressed/DSC_0864 (1)-min.JPG";
 import img7 from "../ImagesFolder/Topphoto/compressed/IMG_8159-min.JPG";
+import img8 from "../ImagesFolder/Topphoto/bog_meet.jpg";
+import img9 from "../ImagesFolder/Topphoto/open_stage.jpg";
+import img10 from "../ImagesFolder/Topphoto/republic_day.jpg";
+import img11 from "../ImagesFolder/Topphoto/republic_day_img2.jpg";
+import img12 from "../ImagesFolder/Topphoto/sangeet.jpg";
+import img13 from "../ImagesFolder/Topphoto/sports_meet.jpg";
+import img14 from "../ImagesFolder/Topphoto/techfest.jpg";
+import img15 from "../ImagesFolder/Topphoto/bharatanatyam.JPG";
+import img16 from "../ImagesFolder/Topphoto/convocation_22.JPG";
+import img17 from "../ImagesFolder/Topphoto/garba_night.JPG";
+import img18 from "../ImagesFolder/Topphoto/mini_concert.JPG";
+import img19 from "../ImagesFolder/Topphoto/teachers_day.JPG";
+import img20 from "../ImagesFolder/Topphoto/yoga_23.JPG";
+
 import "../styles/carousel.css"
 
 
@@ -128,6 +142,214 @@ export default function CarouselComponent() {
             <LazyLoadImage
               src={img7}
               alt="img7"
+              effect="blur"
+              placeholder={
+                <Blurhash
+                  hash="L7o;~Xn$}Wj]0#ogtKj[7odV9^NH"
+                  width="100%"
+                  height="100%"
+                  resolutionX={32}
+                  resolutionY={32}
+                />
+              }
+            />
+          </div>
+          <div>
+            <LazyLoadImage
+              src={img8}
+              alt="img9"
+              effect="blur"
+              placeholder={
+                <Blurhash
+                  hash="L7o;~Xn$}Wj]0#ogtKj[7odV9^NH"
+                  width="100%"
+                  height="100%"
+                  resolutionX={32}
+                  resolutionY={32}
+                />
+              }
+            />
+          </div>
+          <div>
+            <LazyLoadImage
+              src={img9}
+              alt="img9"
+              effect="blur"
+              placeholder={
+                <Blurhash
+                  hash="L7o;~Xn$}Wj]0#ogtKj[7odV9^NH"
+                  width="100%"
+                  height="100%"
+                  resolutionX={32}
+                  resolutionY={32}
+                />
+              }
+            />
+          </div>
+          <div>
+            <LazyLoadImage
+              src={img10}
+              alt="img10"
+              effect="blur"
+              placeholder={
+                <Blurhash
+                  hash="L7o;~Xn$}Wj]0#ogtKj[7odV9^NH"
+                  width="100%"
+                  height="100%"
+                  resolutionX={32}
+                  resolutionY={32}
+                />
+              }
+            />
+          </div>
+          <div>
+            <LazyLoadImage
+              src={img11}
+              alt="img11"
+              effect="blur"
+              placeholder={
+                <Blurhash
+                  hash="L7o;~Xn$}Wj]0#ogtKj[7odV9^NH"
+                  width="100%"
+                  height="100%"
+                  resolutionX={32}
+                  resolutionY={32}
+                />
+              }
+            />
+          </div>
+          <div>
+            <LazyLoadImage
+              src={img12}
+              alt="img12"
+              effect="blur"
+              placeholder={
+                <Blurhash
+                  hash="L7o;~Xn$}Wj]0#ogtKj[7odV9^NH"
+                  width="100%"
+                  height="100%"
+                  resolutionX={32}
+                  resolutionY={32}
+                />
+              }
+            />
+          </div>
+          <div>
+            <LazyLoadImage
+              src={img13}
+              alt="img13"
+              effect="blur"
+              placeholder={
+                <Blurhash
+                  hash="L7o;~Xn$}Wj]0#ogtKj[7odV9^NH"
+                  width="100%"
+                  height="100%"
+                  resolutionX={32}
+                  resolutionY={32}
+                />
+              }
+            />
+          </div>
+          <div>
+            <LazyLoadImage
+              src={img14}
+              alt="img14"
+              effect="blur"
+              placeholder={
+                <Blurhash
+                  hash="L7o;~Xn$}Wj]0#ogtKj[7odV9^NH"
+                  width="100%"
+                  height="100%"
+                  resolutionX={32}
+                  resolutionY={32}
+                />
+              }
+            />
+          </div>
+          <div>
+            <LazyLoadImage
+              src={img15}
+              alt="img15"
+              effect="blur"
+              placeholder={
+                <Blurhash
+                  hash="L7o;~Xn$}Wj]0#ogtKj[7odV9^NH"
+                  width="100%"
+                  height="100%"
+                  resolutionX={32}
+                  resolutionY={32}
+                />
+              }
+            />
+          </div>
+          <div>
+            <LazyLoadImage
+              src={img16}
+              alt="img16"
+              effect="blur"
+              placeholder={
+                <Blurhash
+                  hash="L7o;~Xn$}Wj]0#ogtKj[7odV9^NH"
+                  width="100%"
+                  height="100%"
+                  resolutionX={32}
+                  resolutionY={32}
+                />
+              }
+            />
+          </div>
+          <div>
+            <LazyLoadImage
+              src={img17}
+              alt="img17"
+              effect="blur"
+              placeholder={
+                <Blurhash
+                  hash="L7o;~Xn$}Wj]0#ogtKj[7odV9^NH"
+                  width="100%"
+                  height="100%"
+                  resolutionX={32}
+                  resolutionY={32}
+                />
+              }
+            />
+          </div>
+          <div>
+            <LazyLoadImage
+              src={img18}
+              alt="img18"
+              effect="blur"
+              placeholder={
+                <Blurhash
+                  hash="L7o;~Xn$}Wj]0#ogtKj[7odV9^NH"
+                  width="100%"
+                  height="100%"
+                  resolutionX={32}
+                  resolutionY={32}
+                />
+              }
+            />
+          </div>
+          <div>
+            <LazyLoadImage
+              src={img19}
+              alt="img19"
+              effect="blur"
+              placeholder={
+                <Blurhash
+                  hash="L7o;~Xn$}Wj]0#ogtKj[7odV9^NH"
+                  width="100%"
+                  height="100%"
+                  resolutionX={32}
+                  resolutionY={32}
+                />
+              }
+            />
+          </div>
+          <div>
+            <LazyLoadImage
+              src={img20}
+              alt="img20"
               effect="blur"
               placeholder={
                 <Blurhash
