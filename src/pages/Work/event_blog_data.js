@@ -5,8 +5,13 @@ import img5 from "../../ImagesFolder/Work_Photo/DSC_6265.jpg"
 import img7 from "../../ImagesFolder/Work_Photo/DSC_0141.JPG"
 import img8 from "../../ImagesFolder/Work_Photo/DSC_5926.JPG"
 import img9 from "../../ImagesFolder/Work_Photo/DSC_0328.JPG"
-
 import img6 from "../../ImagesFolder/Work_Photo/IMG_0430.jpg"
+
+
+import img23 from "../../ImagesFolder/Work_Photo/bog_1.jpg"
+import img24 from "../../ImagesFolder/Work_Photo/bog_2.jpg"
+import img25 from "../../ImagesFolder/Work_Photo/bog_3.jpg"
+import img26 from "../../ImagesFolder/Work_Photo/bog_4.jpg"
 
 import img10 from "../../ImagesFolder/Work_Photo/sports_5.jpg"
 import img11 from "../../ImagesFolder/Work_Photo/sports_4.jpg"
@@ -14,12 +19,44 @@ import img12 from "../../ImagesFolder/Work_Photo/sports_3.jpg"
 import img13 from "../../ImagesFolder/Work_Photo/sports_2.jpg"
 import img14 from "../../ImagesFolder/Work_Photo/sports_1.jpg"
 
-
-
 import img15 from "../../ImagesFolder/Work_Photo/convocation_4.jpg"
 import img16 from "../../ImagesFolder/Work_Photo/convocation_3.jpg"
 import img17 from "../../ImagesFolder/Work_Photo/convocation_2.jpg"
 import img18 from "../../ImagesFolder/Work_Photo/convocation_1.jpg"
+
+
+import img19 from "../../ImagesFolder/Work_Photo/foundation_day_1.jpg"
+import img20 from "../../ImagesFolder/Work_Photo/foundation_day_2.jpg"
+import img21 from "../../ImagesFolder/Work_Photo/foundation_day_3.jpg"
+import img22 from "../../ImagesFolder/Work_Photo/foundation_day_4.jpg"
+import img35 from "../../ImagesFolder/Work_Photo/foundation_day_5.jpg"
+
+
+import img27 from "../../ImagesFolder/Work_Photo/habba_1.jpg"
+import img28 from "../../ImagesFolder/Work_Photo/habba_2.jpg"
+import img29 from "../../ImagesFolder/Work_Photo/habba_3.jpg"
+import img30 from "../../ImagesFolder/Work_Photo/habba_4.jpg"
+import img36 from "../../ImagesFolder/Work_Photo/habba_5.jpg"
+
+import img31 from "../../ImagesFolder/Work_Photo/republic_1.jpg"
+import img32 from "../../ImagesFolder/Work_Photo/republic_2.jpg"
+import img33 from "../../ImagesFolder/Work_Photo/republic_3.jpg"
+import img34 from "../../ImagesFolder/Work_Photo/republic_4.jpg"
+import img37 from "../../ImagesFolder/Work_Photo/republic_5.jpg"
+
+import img38 from "../../ImagesFolder/Work_Photo/inter_iiit_1.jpg"
+import img39 from "../../ImagesFolder/Work_Photo/inter_iiit_2.jpg"
+import img40 from "../../ImagesFolder/Work_Photo/inter_iiit_3.jpg"
+import img41 from "../../ImagesFolder/Work_Photo/inter_iiit_4.jpg"
+
+
+
+import img42 from "../../ImagesFolder/Work_Photo/yoga_1.jpg"
+import img43 from "../../ImagesFolder/Work_Photo/yoga_2.jpg"
+import img44 from "../../ImagesFolder/Work_Photo/yoga_3.jpg"
+import img45 from "../../ImagesFolder/Work_Photo/yoga_4.jpg"
+import img46 from "../../ImagesFolder/Work_Photo/yoga_5.jpg"
+
 
 export const event_blog_data = [
     {
@@ -28,12 +65,17 @@ export const event_blog_data = [
         event_caption: "The Chairperson of IIIT Dharwad, on her visit to the campus, sat down among the students to have a warm conversation. Being a Philanthropist and a Storyteller, Accounting her stories about the initial days of Infosys and their many failures and milestones, she left an awe-inspiring effect on the students.The great example of humility was captured by Team Iridescence."
     },
     {
-        image:[img2,img2,img2,img2],
+        image: [img23,img25,img24,img26],
+        caption: "BOG Meeting",
+        event_caption: "",
+    },
+    {
+        image:[img2,img31,img32,img33,img34,img37],
         caption: "Republic Day",
         event_caption: "Iridescence captured the Tricolor soaring high in the sky during the 74th Republic Day celebration. Respected Registrar Sir hoisted the national flag and the students put up a marvellous performance.The pride and patriotism in everyone's eyes were caught splendidly by our photography team."
     },
     {
-        image: [img4,img4,img4,img4],
+        image: [img4,],
         caption: "Summer Tech Fest",
         event_caption: "The 2-month long fest conducted by all 10 clubs of IIIT Dharwad was entirely covered by the Iridescence team. The fest brought a lot of opportunities for students to upgrade their skills and to test them with its 22 events including several workshops and contests."
     },
@@ -60,12 +102,29 @@ export const event_blog_data = [
     {
         image:[img15,img16,img17,img18],
         caption: "Convocation day",
-        event_caption: ""
+        event_caption: "On the momentous occasion of the 4th Convocation Day of IIIT Dharwad, Iridescence captured the essence of academic achievement and joyous celebrations through a captivating display of pictures. The ceremony commenced with a solemn procession, and the air was charged with an aura of achievement and determination. It marked a significant milestone in the lives of the young minds and these pictures truly captured the spirit of celebration, inspiring future generations to strive for excellence and success."
     },
     {
-        image:[],
+        image:[img38,img39,img40,img41],
         caption: "Inter IIIT",
         event_caption: "\"Inter IIIT Sports: Fueling the Spirit of Excellence and Sporting Unity!.\"The sports competitions at Inter IIIT cover a diverse array of disciplines, catering to athletes with different interests and strengths. From track and field events such as sprints, long jumps, and shot put to team sports like cricket, football, basketball, and volleyball, the sports arena was alive with passion and determination.Some of the beautiful moments were captured by Iridescence."
     },
+    {
+        image:[img19,img20,img21,img22,img35],
+        caption: "Foundation Day",
+        event_caption: "The foundation day marked another year of our relentless pursuit of knowledge, innovation, and excellence. With each passing year, our institute has grown stronger, not only in terms of infrastructure but also in nurturing bright minds and molding them into future leaders. On this momentous day, the faculty reflected on the countless achievements and milestones that have shaped the institute's journey, and extended their heartfelt gratitude to the visionaries whose unwavering dedication laid the very foundation on which this institute stands tall today.Iridescence gracefully captured this proud moment to immortalize the unwavering commitment of our institute in transforming lives through education and research.",
+    },
+    {
+        image:[img27,img28,img29,img30,img36],
+        caption: "IIIT Habba",
+        event_caption: "",
+    },
+    {
+        image:[img42,img43,img44,img45,img46],
+        caption: "Yoga Day",
+        event_caption: "",
+    },
+    
+    
 
 ]
