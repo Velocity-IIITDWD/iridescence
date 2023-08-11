@@ -54,7 +54,6 @@ import img41 from "../../ImagesFolder/Work_Photo/inter_iiit_4.jpg"
 import img42 from "../../ImagesFolder/Work_Photo/yoga_1.jpg"
 import img43 from "../../ImagesFolder/Work_Photo/yoga_2.jpg"
 import img44 from "../../ImagesFolder/Work_Photo/yoga_3.jpg"
-import img45 from "../../ImagesFolder/Work_Photo/yoga_4.jpg"
 import img46 from "../../ImagesFolder/Work_Photo/yoga_5.jpg"
 
 
@@ -120,8 +119,13 @@ export const event_blog_data = [
         event_caption: "",
     },
     {
-        image:[img42,img43,img44,img45,img46],
+        image:[img42,img43,img44,img46],
         caption: "Yoga Day",
+        event_caption: "International Day of Yoga, celebrated annually on June 21st, emphasizes the significance of yoga in fostering physical, mental, and spiritual well-being. With students at IIITDWD participating, World Yoga Day showcased the unity that transcends borders through a shared commitment to holistic health. It serves as a reminder that amidst the modern challenges, the path to wellness can be found through this age-old practice.Happy soul, a fresh mind, and a healthy body. All three can be achieved with yoga. Celebrating the 8th International Yoga Day on campus, with the students enthusiastically performing yoga asanas and spreading positivity, Iridescence captured all the wonderful glimpses.",
+    },
+    {
+        image:[],
+        caption: "Magazine Unvieling Day",
         event_caption: "",
     },
     
