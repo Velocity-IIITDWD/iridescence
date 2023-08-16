@@ -66,7 +66,7 @@ export const event_blog_data = [
     {
         image: [img23,img25,img24,img26],
         caption: "BOG Meeting",
-        event_caption: "",
+        event_caption: "The BOG(Board Of Governors) meeting also offered a platform for reviewing past achievements and setting ambitious goals for the institute's continued growth and success.Chairperson Smt. Sudha Murthy, Prof Uday B Desai, Prof Seshu,Sri M.N VidyaShankar and Prof H.P Khincha hounored the meet with their presence.",
     },
     {
         image:[img2,img31,img32,img33,img34,img37],
@@ -126,7 +126,7 @@ export const event_blog_data = [
     {
         image:[],
         caption: "Magazine Unvieling Day",
-        event_caption: "",
+        event_caption: "The Magazine Unveiling Day was a vibrant and anticipated event that celebrated the culmination of creativity, talent, and hard work.The event was a captivating blend of artistry and literary prowess, showcasing a diverse range of articles, artwork, poetry, and more. Attendees were treated to an evening of inspiration and camaraderie, as contributors shared their thoughts and experiences behind their creations. The Magazine Unveiling Day not only fostered a sense of community but also highlighted the institute's commitment to providing a platform for artistic expression and intellectual discourse.",
     },
     
     
