@@ -54,7 +54,6 @@ import img41 from "../../ImagesFolder/Work_Photo/inter_iiit_4.jpg"
 import img42 from "../../ImagesFolder/Work_Photo/yoga_1.jpg"
 import img43 from "../../ImagesFolder/Work_Photo/yoga_2.jpg"
 import img44 from "../../ImagesFolder/Work_Photo/yoga_3.jpg"
-import img45 from "../../ImagesFolder/Work_Photo/yoga_4.jpg"
 import img46 from "../../ImagesFolder/Work_Photo/yoga_5.jpg"
 
 
@@ -67,7 +66,7 @@ export const event_blog_data = [
     {
         image: [img23,img25,img24,img26],
         caption: "BOG Meeting",
-        event_caption: "",
+        event_caption: "The BOG(Board Of Governors) meeting also offered a platform for reviewing past achievements and setting ambitious goals for the institute's continued growth and success.Chairperson Smt. Sudha Murthy, Prof Uday B Desai, Prof Seshu,Sri M.N VidyaShankar and Prof H.P Khincha hounored the meet with their presence.",
     },
     {
         image:[img2,img31,img32,img33,img34,img37],
@@ -120,9 +119,14 @@ export const event_blog_data = [
         event_caption: "",
     },
     {
-        image:[img42,img43,img44,img45,img46],
+        image:[img42,img43,img44,img46],
         caption: "Yoga Day",
-        event_caption: "",
+        event_caption: "International Day of Yoga, celebrated annually on June 21st, emphasizes the significance of yoga in fostering physical, mental, and spiritual well-being. With students at IIITDWD participating, World Yoga Day showcased the unity that transcends borders through a shared commitment to holistic health. It serves as a reminder that amidst the modern challenges, the path to wellness can be found through this age-old practice.Happy soul, a fresh mind, and a healthy body. All three can be achieved with yoga. Celebrating the 8th International Yoga Day on campus, with the students enthusiastically performing yoga asanas and spreading positivity, Iridescence captured all the wonderful glimpses.",
+    },
+    {
+        image:[],
+        caption: "Magazine Unvieling Day",
+        event_caption: "The Magazine Unveiling Day was a vibrant and anticipated event that celebrated the culmination of creativity, talent, and hard work.The event was a captivating blend of artistry and literary prowess, showcasing a diverse range of articles, artwork, poetry, and more. Attendees were treated to an evening of inspiration and camaraderie, as contributors shared their thoughts and experiences behind their creations. The Magazine Unveiling Day not only fostered a sense of community but also highlighted the institute's commitment to providing a platform for artistic expression and intellectual discourse.",
     },
     
     
