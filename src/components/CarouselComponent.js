@@ -40,6 +40,7 @@ export default function CarouselComponent() {
           centerMode
           swipeable
           centerSlidePercentage="60"
+          showThumbs={false}
             
         >
           <div>

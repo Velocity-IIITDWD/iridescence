@@ -1,11 +1,9 @@
-import React, {useRef, useState, useEffect } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { gsap } from "gsap";
 import { Power2 } from "gsap";
-import "../../styles/PageLoading.css"
-
+import "../../styles/PageLoading.css";
 
 const PageLoading = () => {
-
   const [isLoaded, setIsLoaded] = useState(false);
   const textRef = useRef(null);
 
@@ -17,18 +15,13 @@ const PageLoading = () => {
       opacity: 1,
       y: "0%",
       ease: Power2.easeOut,
-      onComplete: () => {
-        gsap.to(".message", {
-          opacity: 0
-        })
-      }
     })
-    .to(textRef.current, {
-      duration: 2,
-      color: "#000000",
-      repeat: -1,
-      yoyo: true,
-    },"-=0.4")
+      .to(textRef.current, {
+        duration: 2,
+        color: "#000000",
+        repeat: -1,
+        yoyo: true,
+      },"-=0.4")
       .to(".welcome-logo", {
         duration: 1,
         opacity: 1,

@@ -54,7 +54,7 @@ import img41 from "../../ImagesFolder/Work_Photo/inter_iiit_4.jpg"
 import img42 from "../../ImagesFolder/Work_Photo/yoga_1.jpg"
 import img43 from "../../ImagesFolder/Work_Photo/yoga_2.jpg"
 import img44 from "../../ImagesFolder/Work_Photo/yoga_3.jpg"
-import img45 from "../../ImagesFolder/Work_Photo/yoga_4.jpg"
+import img45 from "../../ImagesFolder/Work_Photo/yoga_4.JPG"
 import img46 from "../../ImagesFolder/Work_Photo/yoga_5.jpg"
 
 
